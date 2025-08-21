@@ -1,0 +1,10 @@
+.footer .logo{
+    width: 30vw;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.footer .texto{
+    text-align: center;
+}

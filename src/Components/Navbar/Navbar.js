@@ -23,19 +23,24 @@ function BasicNavbar() {
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#nosotros" onClick={scrollTo('nosotros')}>Nosotros</Nav.Link>
+        <Nav className="mx-auto mx-lg-0 justify-content-center justify-content-lg-end text-center text-lg-start w-100 w-lg-auto">
+        <Nav.Link href="#nosotros" onClick={scrollTo('nosotros')}>Nosotros</Nav.Link>
 
-            <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#sellos" onClick={scrollTo('sellos')}>Sellos</NavDropdown.Item>
-              <NavDropdown.Item href="#grabados" onClick={scrollTo('grabados')}>Grabados en madera</NavDropdown.Item>
-              <NavDropdown.Item href="#placas" onClick={scrollTo('placas')}>Placas profesionales</NavDropdown.Item>
-              <NavDropdown.Item href="#boligrafos" onClick={scrollTo('boligrafos')}>Bolígrafos</NavDropdown.Item>
-              <NavDropdown.Item href="#llaveros" onClick={scrollTo('llaveros')}>Llaveros</NavDropdown.Item>
-            </NavDropdown>
+        <NavDropdown
+          title="Productos"
+          id="basic-nav-dropdown"
+          className="text-center text-lg-start mx-auto"
+        >
+          <NavDropdown.Item href="#sellos" onClick={scrollTo('sellos')}>Sellos</NavDropdown.Item>
+          <NavDropdown.Item href="#grabados" onClick={scrollTo('grabados')}>Grabados en madera</NavDropdown.Item>
+          <NavDropdown.Item href="#placas" onClick={scrollTo('placas')}>Placas profesionales</NavDropdown.Item>
+          <NavDropdown.Item href="#boligrafos" onClick={scrollTo('boligrafos')}>Bolígrafos</NavDropdown.Item>
+          <NavDropdown.Item href="#llaveros" onClick={scrollTo('llaveros')}>Llaveros</NavDropdown.Item>
+        </NavDropdown>
 
-            <Nav.Link href="#contacto" onClick={scrollTo('contacto')}>Contacto</Nav.Link>
-          </Nav>
+        <Nav.Link href="#contacto" onClick={scrollTo('contacto')}>Contacto</Nav.Link>
+      </Nav>
+      
         </Navbar.Collapse>
       </Container>
     </Navbar>

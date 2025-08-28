@@ -1,5 +1,25 @@
 .navbar .logo{
-    width: 20vw;
-    margin: 0.5rem 1rem;
+    width: 15vw;
+    margin: 0.25rem 1rem;
 }
 
+.navbar .nav-link{
+    color: black!important;
+    font-size: 1.15rem;
+}
+
+.navbar .dropdown-menu{
+    border: none!important;
+    background-color: #f8f9fa!important;
+}
+
+.navbar .dropdown-item{
+    padding-left: 9vw;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* .navbar .dropdown-item:hover{
+    background-color: red!important;
+    opacity: 0.1;
+} */

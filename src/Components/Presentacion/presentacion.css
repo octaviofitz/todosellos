@@ -1,5 +1,6 @@
 .presentacion .texto{
-    text-align: center;
     padding: 5vw;
     font-size: 1.15rem;   
+    text-align: justify;
+    margin: 3vw;
 }

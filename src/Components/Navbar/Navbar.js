@@ -3,24 +3,38 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import './navbar.css'
+import './navbar.css';
 
-function BasicExample() {
+function BasicNavbar() {
+  const scrollTo = (id) => (e) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
-    <Navbar expand="lg" className="bg-body-tertiary navbar">
+    <Navbar expand="lg" className="bg-body-tertiary navbar" collapseOnSelect>
       <Container>
-        <img src='/img/logos/logo.png' alt='Logo Todo Sellos' className='logo'/>
+        <Navbar.Brand href="#top" onClick={scrollTo('top')} className="d-flex align-items-center">
+          <img src="/img/logos/logo.png" alt="Logo Todo Sellos" className="logo" />
+        </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#link">Nosotros</Nav.Link>
+          <Nav className="ms-auto">
+            <Nav.Link href="#nosotros" onClick={scrollTo('nosotros')}>Nosotros</Nav.Link>
+
             <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Sellos</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Grabados
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#sellos" onClick={scrollTo('sellos')}>Sellos</NavDropdown.Item>
+              <NavDropdown.Item href="#grabados" onClick={scrollTo('grabados')}>Grabados en madera</NavDropdown.Item>
+              <NavDropdown.Item href="#placas" onClick={scrollTo('placas')}>Placas profesionales</NavDropdown.Item>
+              <NavDropdown.Item href="#boligrafos" onClick={scrollTo('boligrafos')}>Bolígrafos</NavDropdown.Item>
+              <NavDropdown.Item href="#llaveros" onClick={scrollTo('llaveros')}>Llaveros</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Contacto</Nav.Link>
+
+            <Nav.Link href="#contacto" onClick={scrollTo('contacto')}>Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -28,4 +42,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default BasicNavbar;

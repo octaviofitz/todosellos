@@ -1,3 +1,9 @@
+.footer{
+   /*  background-color: var(--blanco); */
+    margin-bottom: 0;
+    padding: 0 1rem;
+}
+
 .footer .logo{
     width: 30vw;
     display: flex;
@@ -7,4 +13,7 @@
 
 .footer .texto{
     text-align: center;
+    text-transform: uppercase;
+    color: var(--azul);
+    font-weight: 600;
 }

@@ -1,3 +1,41 @@
-.header .img{
+.header{
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/header/header.jpeg') center;
+    background-size: cover;
     width: 100%;
+    height: 65vh;
+    padding: 1rem;
+}
+
+.header .titulo{
+    text-align: center;
+    padding: 21vh 3vw 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.subtitle-banner{
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.header .btn-secondary{
+    background-color: var(--naranja);
+    border: none;
+    padding: 0.75rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 0;
+    font-size: 4vw;
+}
+
+.header .buttonConsulta{
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: var(--azul)!important;
 }

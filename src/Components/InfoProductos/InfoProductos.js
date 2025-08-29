@@ -13,12 +13,12 @@ function InfoProductos() {
                          </div>
 
             <div className='articulo'>
-                <img src='/img/index/containerProductos/grabados.jpg' alt='Todo Sellos boligrafos' className='img'/>
+                <img src='/img/index/containerProductos/grabados.png' alt='Todo Sellos boligrafos' className='img'/>
                     <p className='subtitulo'>GRABADOS EN MADERA</p>
                          </div>
 
                          <div className='articulo'>
-                <img src='/img/index/containerProductos/boligrafo.webp' alt='Todo Sellos boligrafos' className='img'/>
+                <img src='/img/index/containerProductos/placa.png' alt='Todo Sellos boligrafos' className='img'/>
                     <p className='subtitulo'>PLACAS PROFESIONALES</p>
                          </div>
 
@@ -29,7 +29,7 @@ function InfoProductos() {
                          </div>
 
                          <div className='articulo'>
-                <img src='/img/index/containerProductos/boligrafo.webp' alt='Todo Sellos boligrafos' className='img'/>
+                <img src='/img/index/containerProductos/llavero.png' alt='Todo Sellos boligrafos' className='img'/>
                     <p className='subtitulo'>LLAVEROS</p>
                          </div>
            

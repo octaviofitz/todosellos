@@ -23,13 +23,13 @@ function BasicNavbar() {
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto mx-lg-0 justify-content-center justify-content-lg-end text-center text-lg-start w-100 w-lg-auto">
+        <Nav className="text-lg-start w-100 w-lg-auto">
         <Nav.Link href="#nosotros" onClick={scrollTo('nosotros')}>Nosotros</Nav.Link>
 
         <NavDropdown
           title="Productos"
           id="basic-nav-dropdown"
-          className="text-center text-lg-start mx-auto"
+          className=""
         >
           <NavDropdown.Item href="#sellos" onClick={scrollTo('sellos')}>Sellos</NavDropdown.Item>
           <NavDropdown.Item href="#grabados" onClick={scrollTo('grabados')}>Grabados en madera</NavDropdown.Item>

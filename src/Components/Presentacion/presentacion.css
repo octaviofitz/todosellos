@@ -4,6 +4,7 @@
     margin: 3vw;
     font-weight: 600;
     text-transform: uppercase;
+    color: var(--azul);
 }
 
 .presentacion .texto{

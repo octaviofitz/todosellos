@@ -6,6 +6,7 @@
 .navbar .nav-link{
     color: black!important;
     font-size: 1.15rem;
+    margin-left: 1.5rem;
 }
 
 .navbar .dropdown-menu{
@@ -14,9 +15,14 @@
 }
 
 .navbar .dropdown-item{
-    padding-left: 9vw;
-    text-decoration: underline;
     cursor: pointer;
+    border-top: 1px solid #ccc;
+  margin: 0.5rem;
+  font-weight: 600;
+}
+
+.navbar .dropdown-item:first-child{
+    border-top: none;
 }
 
 /* .navbar .dropdown-item:hover{

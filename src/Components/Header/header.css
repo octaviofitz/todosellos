@@ -39,3 +39,17 @@
 .btn:hover{
     background-color: var(--azul)!important;
 }
+
+@keyframes latido {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .boton-latido {
+    animation: latido 2.5s infinite;
+    transition: transform 0.3s ease-in-out;
+  }

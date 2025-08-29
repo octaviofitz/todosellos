@@ -15,7 +15,7 @@ function Header() {
          rel="noopener noreferrer"
          aria-label="Whatsapp"
          >
-            <Button variant="secondary" size="lg" className='button-compra-bentonita latido'>
+            <Button variant="secondary" size="lg" className='boton-latido'>
                  CONSULTAR
              </Button>
              </a>

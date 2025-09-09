@@ -40,3 +40,8 @@
     font-weight: 500;
     font-size: 1.25rem;
 }
+
+.infoproductos a{
+    text-decoration: none;
+    color: black;
+}

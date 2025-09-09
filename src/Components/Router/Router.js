@@ -1,6 +1,6 @@
 import React from 'react';
-import {Routes, BrowserRouter, Route} from 'react-router-dom'
-
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
+import { CartProvider } from "../../Context/CartContext";
 
 import Navbar from '../Navbar/Navbar';
 import Header from '../Header/Header';
@@ -9,28 +9,42 @@ import InfoProductos from '../InfoProductos/InfoProductos';
 import Footer from '../Footer/Footer';
 import ScrollToTop from '../Utilidades/ScrollToTop/ScrollToTop';
 import BotonWP from '../Utilidades/Whatsapp/BotonWP';
+import CategoriasProductos from '../Productos/CategoriasProductos/CategoriasProductos'; 
+import ProductPage from '../Productos/ProductPage/ProductPage'; 
+
 
 function Router() {
-    return (
-        <div>
-            <BrowserRouter>
-            <ScrollToTop />
-            <BotonWP />
-            <header>
-            <Navbar />
-            </header>
-            <main>
-            <Header />
-            <Presentacion />
-            <InfoProductos />
-            </main>
-            
-            <Footer />
+  return (
+    <div>
+          <CartProvider>
+      <BrowserRouter>
+        <ScrollToTop />
+        <BotonWP />
+        <header>
+          <Navbar />
+        </header>
 
-            </ BrowserRouter>
+        <main>
+          <Routes>
+            <Route path="/" element={
+                <>
+                  <Header />
+                  <Presentacion />
+                  <InfoProductos />
+                </>
+              }
+            />
+<Route path="/categoria/:categoria" element={<CategoriasProductos />} />
+<Route path="/producto/:id" element={<ProductPage />} />
+          </Routes>
+        </main>
 
-        </div>
-    );
+        <Footer />
+      </BrowserRouter>
+      </CartProvider>
+
+    </div>
+  );
 }
 
 export default Router;

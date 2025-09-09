@@ -1,0 +1,83 @@
+[
+    {
+      "id": "sell1",
+      "title": "Sello Texto Pequeño",
+      "description": "Sello con texto personalizable, tamaño 30x20 mm.",
+      "price": 1200,
+      "category": "Sellos",
+      "image": "/images/sellos/sello_texto_peq.jpg"
+    },
+    {
+      "id": "sell2",
+      "title": "Sello Fecha Compacto",
+      "description": "Sello fechador compacto, ideal para oficinas.",
+      "price": 2200,
+      "category": "Sellos",
+      "image": "/images/sellos/sello_fecha.jpg"
+    },
+    {
+      "id": "boli1",
+      "title": "Bolígrafo Metalizado",
+      "description": "Bolígrafo de metal con posibilidad de grabado láser.",
+      "price": 650,
+      "category": "Boligrafos",
+      "image": "/images/boligrafos/boli_metal.jpg"
+    },
+    {
+      "id": "boli2",
+      "title": "Bolígrafo Económico",
+      "description": "Bolígrafo de plástico con cuerpo para personalizar.",
+      "price": 320,
+      "category": "Boligrafos",
+      "image": "/images/boligrafos/boli_plastico.jpg"
+    },
+    {
+      "id": "grab1",
+      "title": "Placa Grabada en Madera - Chica",
+      "description": "Placa de madera con grabado láser, 10x15 cm.",
+      "price": 1800,
+      "category": "GrabadosEnMadera",
+      "image": "/images/grabados/placa_madera_chica.jpg"
+    },
+    {
+      "id": "grab2",
+      "title": "Cartel Grabado Madera - Logo",
+      "description": "Grabado en madera para logos o señalética interior.",
+      "price": 4200,
+      "category": "GrabadosEnMadera",
+      "image": "/images/grabados/cartel_logo.jpg"
+    },
+    {
+      "id": "llav1",
+      "title": "Llaverito Redondo",
+      "description": "Llaverito de madera redondo 40 mm, con grabado.",
+      "price": 550,
+      "category": "Llaveros",
+      "image": "/images/llaveros/llavero_redondo.jpg"
+    },
+    {
+      "id": "llav2",
+      "title": "Llave-Mini Placa",
+      "description": "Llaverito metálico tipo placa, personalizable.",
+      "price": 680,
+      "category": "Llaveros",
+      "image": "/images/llaveros/llavero_placa.jpg"
+    },
+    {
+      "id": "plac1",
+      "title": "Placa Profesional - Aluminio",
+      "description": "Placa profesional en aluminio anodizado, 20x10 cm.",
+      "price": 5200,
+      "category": "PlacasProfesionales",
+      "image": "/images/placas/placa_aluminio.jpg"
+    },
+    {
+      "id": "plac2",
+      "title": "Placa Profesional - Bronce",
+      "description": "Placa de bronce pulido para uso profesional y corporativo.",
+      "price": 7600,
+      "category": "PlacasProfesionales",
+      "image": "/images/placas/placa_bronce.jpg"
+    }
+  ]
+  

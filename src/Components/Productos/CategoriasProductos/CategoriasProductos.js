@@ -1,5 +1,8 @@
 import { useParams, Link } from "react-router-dom";
+import { Button, Nav} from 'react-bootstrap';
 import products from "../../../Data/Productos.json";
+
+import './categoriasProductos.css';
 
 function CategoryPage() {
   const { categoria } = useParams();
@@ -8,69 +11,69 @@ function CategoryPage() {
     (p) => p.category.toLowerCase() === categoria.toLowerCase()
   );
 
-  return (
-    <div style={{ padding: "20px" }}>
-      <h2 style={{ marginBottom: "20px" }}>Productos de {categoria}</h2>
+  // Palabras conocidas que queremos separar
+  const knownWords = ["profesionales", "grabados", "madera", "placas", "en"];
 
-      <div
-        style={{
-          display: "grid",
-          gap: "20px",
-          gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
-        }}
-      >
+  const formatCategory = (word) => {
+    let formatted = word;
+
+    knownWords.forEach((kw) => {
+      formatted = formatted.replace(
+        new RegExp(kw, "gi"),
+        (match) => " " + match
+      );
+    });
+
+    // limpiar espacios extras y transformar
+    formatted = formatted.trim().split(" ");
+
+    return (
+      formatted[0].charAt(0).toUpperCase() +
+      formatted[0].slice(1).toLowerCase() +
+      " " +
+      formatted
+        .slice(1)
+        .map((w) => w.toLowerCase())
+        .join(" ")
+    ).trim();
+  };
+
+  return (
+    <section className="categoriasProductos">
+      <h2 className="titulo">{formatCategory(categoria)}</h2>
+
+      <div className="container">
         {filtered.length > 0 ? (
           filtered.map((prod) => (
-            <div
-              key={prod.id}
-              style={{
-                border: "1px solid #ddd",
-                borderRadius: "8px",
-                padding: "15px",
-                textAlign: "center",
-                boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
-              }}
-            >
-              <img
-                src={prod.image}
-                alt={prod.title}
-                style={{
-                  width: "100%",
-                  height: "180px",
-                  objectFit: "cover",
-                  borderRadius: "6px",
-                  marginBottom: "10px",
-                }}
-              />
-              <h3>{prod.title}</h3>
-              <p style={{ fontSize: "14px", color: "#555" }}>
-                {prod.description}
-              </p>
-              <p style={{ fontWeight: "bold", margin: "10px 0" }}>${prod.price}</p>
+            <div className="" key={prod.id}>
+              <div className="card">
+                <img
+                  src={prod.image}
+                  className="img"
+                  alt={prod.title}
+                />
+                <div className="containerData">
+                  <h5 className="titulo">{prod.title}</h5>
+                  {/* <p className="precio">${prod.price}</p> */}
+  
+                  <Button
+                    as={Link}
+                    to={`/producto/${prod.id}`}
+                    className="boton-carrito"
+                  >
+                    Ver detalles
+                  </Button>
 
-              <Link to={`/producto/${prod.id}`}>
-                <button
-                  style={{
-                    background: "#007bff",
-                    color: "white",
-                    border: "none",
-                    padding: "10px 15px",
-                    borderRadius: "6px",
-                    cursor: "pointer",
-                  }}
-                >
-                  Ver
-                </button>
-              </Link>
+                </div>
+              </div>
             </div>
           ))
         ) : (
           <p>No hay productos en esta categoría.</p>
         )}
       </div>
-    </div>
+    </section>
   );
 }
 
 export default CategoryPage;
-  

@@ -1,0 +1,94 @@
+.compra-bentonita{
+    background-color: #fff ;
+    padding: 2rem;
+}
+
+.compra-bentonita-title{
+    padding: 2vw 4vw;
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--azul);
+}
+
+.compra-bentonita-data{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0.75rem;
+    color: #424A4F;
+    padding: 1vw 4vw;
+    font-size: 1.15rem;
+    color: black;
+}
+
+.button-compra-bentonita{
+    align-items: center;
+    display: flex;
+    margin-top: 1.25rem auto;
+    justify-content: center;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    padding: 0 2vw;
+}
+
+.swal-button{
+    background-color: #FF8C1E;
+}
+
+.btn-secondary{
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    .compra-bentonita{
+        padding: 2rem 6rem;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .container-compra-bentonita{
+        margin: 0rem 1rem;
+    }
+
+     .compra-bentonita-title{
+        font-size: 3rem;
+    }
+    
+     .compra-bentonita-data{
+        font-size: 1.15rem;
+    } 
+ 
+    .container-compra-bentonita{
+        display: flex;
+    }
+
+    .texto-compra-bentonita,
+    .formulario-compra-bentonita{
+        padding: 1.5rem 3rem;
+    }
+
+    #formulario{
+        margin-right: 0rem;
+    }
+}
+
+
+@media (min-width: 1280px){
+
+    .compra-bentonita-title{
+        margin-top: 1rem;
+        font-size: 3.5rem;
+    }
+    
+     .compra-bentonita-data{
+         margin-top: 2rem;
+        font-size: 1.5rem;
+    } 
+}

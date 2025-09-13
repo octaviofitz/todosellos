@@ -1,4 +1,6 @@
 [
+
+
     {
       "id": "sell1",
       "title": "Sello Texto Pequeño",
@@ -7,6 +9,7 @@
       "category": "Sellos",
       "image": "/images/sellos/sello_texto_peq.jpg"
     },
+
     {
       "id": "sell2",
       "title": "Sello Fecha Compacto",
@@ -15,22 +18,58 @@
       "category": "Sellos",
       "image": "/images/sellos/sello_fecha.jpg"
     },
+
+
+
     {
       "id": "boli1",
-      "title": "Bolígrafo Metalizado",
-      "description": "Bolígrafo de metal con posibilidad de grabado láser.",
-      "price": 650,
+      "title": "Bolígrafo Andes Micro",
+      "description": "El bolígrafo Andes Micro combina elegancia y estilo en un diseño sofisticado que lo convierte en una excelente opción tanto para uso personal como para regalo. Con acabados que destacan por sus detalles metálicos en dorado o plateado y colores intensos como negro, azul o rojo, transmite distinción sin perder practicidad. Su trazo es suave y parejo, ideal para quienes buscan una escritura cómoda y confiable. Este modelo se presenta en su estuche original, lo que realza su presencia y lo hace perfecto para obsequiar en ocasiones especiales o para quienes valoran un bolígrafo con personalidad y calidad.",
+      "price": 20000,
       "category": "Boligrafos",
-      "image": "/images/boligrafos/boli_metal.jpg"
+      "image": "/img/Productos/Boligrafos/Andes.webp"
     },
+
     {
       "id": "boli2",
-      "title": "Bolígrafo Económico",
-      "description": "Bolígrafo de plástico con cuerpo para personalizar.",
-      "price": 320,
+      "title": "Parker Jotter Caja de Carton",
+      "description": "Parker Jotter es uno de los bolígrafos más reconocidos y apreciados en todo el mundo, un verdadero clásico que combina elegancia, practicidad y durabilidad desde su lanzamiento en 1954. Su diseño atemporal destaca por el característico clip en forma de flecha y un mecanismo de clic fiable y suave, que lo convierten en un instrumento de escritura cómodo y preciso para el día a día. Fabricado con materiales resistentes y pensado para acompañar durante años, el Jotter se ha consolidado como un icono dentro de la marca Parker y una elección preferida tanto por profesionales como por amantes de la papelería de calidad. Este ejemplar se presenta con recambio original Parker y en su caja de cartón original, lo que lo convierte en una opción ideal no solo para uso personal, sino también como un regalo elegante y funcional.",
+      "price": 25000,
       "category": "Boligrafos",
-      "image": "/images/boligrafos/boli_plastico.jpg"
+      "image": "/img/Productos/Boligrafos/Jotler.webp"
     },
+
+    {
+      "id": "boli3",
+      "title": "Boligrafo Micro",
+      "description": "El bolígrafo Micro es la combinación perfecta de elegancia y practicidad. Con un cuerpo metálico en acabados sofisticados y detalles cromados, ofrece una escritura suave y continua que refleja profesionalismo en cada trazo. Disponible en colores rojo, negro, gris y azul, se presenta en un estuche individual que lo convierte en la elección ideal tanto para uso personal como para un regalo ejecutivo. Su diseño ergonómico garantiza comodidad, mientras que su estilo moderno y refinado lo hace destacar en cualquier ocasión.",
+      "price": 20000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/Micro.webp"
+    },
+
+    {
+      "id": "boli4",
+      "title": "Parker Jotter",
+      "description": "El bolígrafo Parker Jotter es un clásico de la escritura que combina elegancia, tradición y fiabilidad. Con un diseño icónico y atemporal, destaca por su acabado metálico y su característico clip en forma de flecha, símbolo de la marca desde 1954. Su mecanismo retráctil es preciso y resistente, mientras que la tinta Parker ofrece una escritura fluida y uniforme que se adapta a cualquier ocasión. Disponible en una variedad de colores sofisticados, el Parker Jotter no solo es una herramienta de escritura, sino también un accesorio de estilo que refleja distinción y buen gusto.",
+      "price": 45000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/ParkerJotter.webp"
+    },
+
+    {
+      "id": "boli5",
+      "title": "Parker Premium",
+      "description": "El bolígrafo Parker Premium es la máxima expresión de sofisticación y estilo en la escritura. Su diseño elegante con acabados en negro brillante y detalles metálicos en dorado o plateado transmite distinción y profesionalismo en cada detalle. Su cuerpo perfectamente equilibrado ofrece comodidad al escribir, mientras que el mecanismo de precisión y la tinta Parker garantizan una experiencia de escritura suave, uniforme y confiable. Presentado en un estuche de lujo, este bolígrafo no solo es una herramienta funcional, sino también un símbolo de buen gusto, ideal para quienes buscan destacar con un accesorio ejecutivo de alta categoría.",
+      "price": 79000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/ParkerPremium.webp"
+    },
+
+
+
+
+
     {
       "id": "grab1",
       "title": "Placa Grabada en Madera - Chica",

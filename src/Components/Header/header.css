@@ -53,3 +53,57 @@
     animation: latido 2.5s infinite;
     transition: transform 0.3s ease-in-out;
   }
+
+  @media (min-width: 768px){
+
+    .header .titulo{
+      padding: 21vh 3vw 0;
+      font-size: 60px;
+  }
+  
+  .subtitle-banner{
+      font-size: 30px;
+  }
+  
+  .header .btn-secondary{
+      padding: 0.55rem 2rem;
+      margin: 2rem auto 0;
+      font-size: 3vw;
+  }
+
+  }
+
+  @media (min-width: 1024px){
+    .header .titulo{
+      padding: 19vh 3vw 0;
+      font-size: 66px;
+  }
+  
+  .subtitle-banner{
+      font-size: 35px;
+  }
+  
+  .header .btn-secondary{
+      padding: 0.55rem 2rem;
+      margin: 2rem auto 0;
+      font-size: 25px;
+  }
+  }
+
+  @media (min-width: 1440px){
+    .header .titulo{
+      padding: 20vh 3vw 0;
+      font-size: 76px;
+  }
+  
+  .subtitle-banner{
+      font-size: 40px;
+  }
+  
+  .header .btn-secondary{
+      padding: 0.55rem 2rem;
+      margin: 2rem auto 0;
+      font-size: 23px;
+  }
+    
+  }

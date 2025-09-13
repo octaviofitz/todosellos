@@ -1,8 +1,9 @@
 .footer{
    /*  background-color: var(--blanco); */
     margin-bottom: 0;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
     padding-bottom: 1.5rem;
+    background-color: #eff3f3;
 }
 
 .footer .logo{
@@ -15,5 +16,16 @@
 .footer .texto{
     text-align: center;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+@media (min-width:1024px){
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer .logo{
+        width: 120px;
+    }
 }

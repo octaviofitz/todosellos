@@ -1,52 +1,73 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-
 import './infoProductos.css';
 
 function InfoProductos() {
-    return (
-        <section className='infoproductos'>
-            <h2 className='titulo'>PRODUCTOS</h2>
+  return (
+    <section className='infoproductos'>
+      <h2 className='titulo'>PRODUCTOS</h2>
 
-            <div className='articulo'>
-            <Link to="/categoria/sellos">
-                <img src='/img/index/containerProductos/sellos.png' alt='Todo Sellos boligrafos' className='img'/>
-                    <p className='subtitulo'>SELLOS</p>
-                    </Link>
-                         </div>
+      <div className='container'>
 
-            <div className='articulo'>
-             <Link to="/categoria/grabadosenmadera">
-                <img src='/img/index/containerProductos/grabados.png' alt='Todo Sellos boligrafos' className='img'/>
-                    <p className='subtitulo'>GRABADOS EN MADERA</p>
-                    </Link>
-                         </div>
+        <Link to="/categoria/sellos" className="card">
+          <div>
+            <img
+              className="img"
+              src="/img/Productos/Sellos/Automatico2000.webp"
+              alt="Sellos"
+            />
+          </div>
+          <p className='subtitulo'>SELLOS</p>
+        </Link>
 
-                         <div className='articulo'>
-                            <Link to="/categoria/placasprofesionales">
-                              <img src='/img/index/containerProductos/placa.png' alt='Todo Sellos boligrafos' className='img'/>
-                                 <p className='subtitulo'>PLACAS PROFESIONALES</p>
-                                 </Link>
-                                      </div>
+        <Link to="/categoria/grabadosenmadera" className="card">
+          <div>
+            <img
+              className="img"
+              src="/img/Productos/GrabadosEnMadera/GrabadosEnMadera.webp"
+              alt="Grabados en madera"
+            />
+          </div>
+          <p className='subtitulo'>GRABADOS EN MADERA</p>
+        </Link>
 
+        <Link to="/categoria/placasprofesionales" className="card">
+          <div>
+            <img
+              className="img"
+              src="/img/Productos/PlacasProfesionales/PlacasProfesionales.webp"
+              alt="Placas profesionales"
+            />
+          </div>
+          <p className='subtitulo'>PLACAS PROFESIONALES</p>
+        </Link>
 
-                         <div className='articulo'>
-                         <Link to="/categoria/boligrafos">
-                <img src='/img/index/containerProductos/boligrafo.webp' alt='Todo Sellos boligrafos' className='img'/>
-                    <p className='subtitulo'>BOLÍGRAFOS</p>
-                    </Link>
-                         </div>
+        <Link to="/categoria/boligrafos" className="card">
+          <div>
+            <img
+              className="img"
+              src="/img/Productos/Boligrafos/Andes.webp"
+              alt="Bolígrafos"
+            />
+          </div>
+          <p className='subtitulo'>BOLÍGRAFOS</p>
+        </Link>
 
-                         <div className='articulo'>
-                         <Link to="/categoria/llaveros">
-                <img src='/img/index/containerProductos/llavero.png' alt='Todo Sellos boligrafos' className='img'/>
-                    <p className='subtitulo'>LLAVEROS</p>
-                    </Link>
-                         </div>
-           
-        </section> 
-    );
+        <Link to="/categoria/llaveros" className="card">
+          <div>
+            <img
+              className="img"
+              src="/img/index/containerProductos/llavero.png"
+              alt="Llaveros"
+            />
+          </div>
+          <p className='subtitulo'>LLAVEROS</p>
+        </Link>
+
+      </div>
+    </section>
+  );
 }
 
 export default InfoProductos;

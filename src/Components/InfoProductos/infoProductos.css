@@ -1,47 +1,60 @@
 .infoproductos{
-    margin: 2rem 0;
-    background-color: var(--celeste);
+    margin: 2rem 0 0;
+    background-color: #dfeeee;
     padding: 3rem 0;
 }
 
-.infoproductos .articulo{
-    border: 1px solid none;
-    margin: 10vw;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-    cursor: pointer;
-    overflow: hidden;
-    background-color: white;   
-    transition: transform 0.3s ease, box-shadow 0.1s ease; /* <-- transición suave */
-}
-
-.infoproductos .articulo:hover {
-    transform: scale(1.03); /* agranda un poco */
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px; /* sombra más marcada */
-}
-
 .infoproductos .titulo{
-    font-weight: 700;
-    text-align: left;
-    font-size: 2.25rem;
-    margin-left: 10vw;
-    color: var(--azul);
+  padding: 2vw 10vw;
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--azul);
 }
 
-.infoproductos .articulo .img{
-    width: 70vw;
-    display: flex;
-    margin: auto;
-    margin-bottom: 1.5rem;
+.infoproductos .container{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
 }
 
-.infoproductos .articulo .subtitulo{
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.25rem;
+.infoproductos .container .card{
+  width: 70vw;
+  display: flex;
+  flex-direction: column; /* importante para que la img vaya arriba y el texto abajo */
+  margin: 1rem auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.infoproductos .container .img{
+  width: 100%;         /* ocupa todo el ancho de la card */
+  height: auto;        /* mantiene proporción */
+  object-fit: cover;   /* recorta si hace falta */
+  display: block;      /* elimina márgenes raros de inline elements */
+}
+
+.infoproductos .container .card .subtitulo{
+  font-size: 1.7rem;
+  text-align: center;
+  color: var(--azul);
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: 0 1rem;
 }
 
 .infoproductos a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+}
+
+
+/* Estilos de la tarjeta por defecto */
+.infoproductos .container .card {
+  border: 1px solid #e2e8f0; /* Borde sutil */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transición para la sombra y la elevación */
+}
+
+/* Efecto de sombra y elevación al pasar el cursor */
+.infoproductos .container .card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }

@@ -1,0 +1,48 @@
+.categoriasProductos{
+    padding: 3vw;
+    margin: 1rem 1rem 3rem;
+}
+
+.categoriasProductos .titulo{
+    text-align: left;
+    margin-left: 1vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--azul);
+    font-size: 2.25rem;
+}
+
+.categoriasProductos .card{
+    background-color: #eff3f3;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.categoriasProductos .card .titulo{
+    margin-top: 1rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+/* .categoriasProductos .card .containerData .precio{
+    margin-top: -0.75rem;
+    margin-left: 0.5rem;
+}
+ */
+ .categoriasProductos .card .containerData .boton-carrito {
+    background-color: var(--naranja);
+    margin: -0.5rem auto 0.75rem; /* auto centra en bloque */
+    border-radius: 10px;
+    border: none;
+    font-size: 1.05rem;
+    padding: 0.5rem 2.5rem;
+    width: fit-content;   /* se ajusta al contenido */
+    display: block;       /* para que funcione bien el margin auto */
+    text-align: center;
+  }

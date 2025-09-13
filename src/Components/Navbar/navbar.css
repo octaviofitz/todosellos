@@ -1,31 +1,96 @@
-.navbar .logo{
-    width: 15vw;
-    margin: 0.25rem 1rem;
+.navbar {
+  background-color: white;
 }
 
-.navbar .nav-link{
-    color: black!important;
-    font-size: 1.15rem;
-    margin-left: 1.5rem;
+.navbar .logo {
+  width: 15vw;
+  margin: 0.25rem 1rem;
 }
 
-.navbar .dropdown-menu{
-    border: none!important;
-    background-color: #f8f9fa!important;
+/* Links del navbar */
+.navbar .nav-link {
+  color: black !important;
+  font-size: 1.15rem;
+  margin-left: 1.5rem;
 }
 
-.navbar .dropdown-item{
-    cursor: pointer;
-    border-top: 1px solid #ccc;
+/* Dropdown */
+.navbar .dropdown-menu {
+  border: none !important;
+  background-color: #f8f9fa !important;
+}
+
+.navbar .dropdown-item {
+  cursor: pointer;
+  border-top: 1px solid #ccc;
   margin: 0.5rem;
   font-weight: 600;
+  border-top: none; /* <-- Elimina cualquier borde superior */
 }
 
-.navbar .dropdown-item:first-child{
-    border-top: none;
+.navbar .dropdown-item:first-child {
+  border-top: none;
 }
 
-/* .navbar .dropdown-item:hover{
-    background-color: red!important;
-    opacity: 0.1;
-} */
+/* Emoji carrito */
+.cart-emoji {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Contenedor del carrito */
+.cart-wrapper {
+  position: relative;
+  margin-right: 0.35rem;
+}
+
+/* Badge del carrito */
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Mobile: acciones (carrito + hamburguesa) */
+.mobile-actions {
+  gap: 0.75rem;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: white!important; /* Color de fondo en hover, un gris muy claro */
+  color: #212529!important; /* Opcional: define el color del texto para el hover */
+}
+
+@media (min-width: 768px) {
+  .navbar .logo {
+    width: 10vw;
+    margin: 0.25rem 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar .logo {
+    width: 85px;
+    margin: 0.1rem 1rem;
+  }
+
+  .cart-emoji {
+    margin-left: 1.5rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .dropdown-menu{
+    margin-left: 18%;
+  }
+  
+}
+
+@media (min-width: 1440px) {
+
+}

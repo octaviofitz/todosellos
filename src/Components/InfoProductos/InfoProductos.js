@@ -21,17 +21,6 @@ function InfoProductos() {
           <p className='subtitulo'>SELLOS</p>
         </Link>
 
-        <Link to="/categoria/grabadosenmadera" className="card">
-          <div>
-            <img
-              className="img"
-              src="/img/Productos/GrabadosEnMadera/GrabadosEnMadera.webp"
-              alt="Grabados en madera"
-            />
-          </div>
-          <p className='subtitulo'>GRABADOS EN MADERA</p>
-        </Link>
-
         <Link to="/categoria/placasprofesionales" className="card">
           <div>
             <img
@@ -43,6 +32,19 @@ function InfoProductos() {
           <p className='subtitulo'>PLACAS PROFESIONALES</p>
         </Link>
 
+
+        <Link to="/categoria/grabados" className="card">
+          <div>
+            <img
+              className="img"
+              src="/img/Productos/Grabados/Mate.webp"
+              alt="Grabados Todo sellos"
+            />
+          </div>
+          <p className='subtitulo'>GRABADOS</p>
+        </Link>
+
+        
         <Link to="/categoria/boligrafos" className="card">
           <div>
             <img

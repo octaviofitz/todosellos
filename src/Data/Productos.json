@@ -66,26 +66,90 @@
       "image": "/img/Productos/Boligrafos/ParkerPremium.webp"
     },
 
+    {
+      "id": "boli6",
+      "title": "Boligrafo de bambú grabado",
+      "description": "Este bolígrafo de bambú grabado combina elegancia y sustentabilidad en un solo accesorio. Fabricado en bambú natural, ofrece un diseño moderno y ecológico que transmite calidez y estilo en cada detalle. Su cuerpo liso permite personalizaciones con grabado láser, ideal para destacar logotipos, nombres o frases, convirtiéndolo en un regalo corporativo perfecto o en un artículo promocional con un toque distintivo. El acabado metálico en punta y clip le da un aire sofisticado, asegurando resistencia y durabilidad en el uso diario. Es una opción funcional, atractiva y amigable con el medio ambiente que realza cualquier marca o evento.",
+      "price": 6000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/Bambu.webp"
+    },
+
+    {
+      "id": "boli7",
+      "title": "Grabado en Boligrafo Prestige",
+      "description": "El bolígrafo Prestige grabado es una opción elegante y sofisticada para quienes buscan un detalle único y personalizado. Su acabado metálico en tono oscuro, combinado con detalles cromados, le otorga un estilo moderno y profesional. El grabado láser sobre su superficie realza cualquier nombre, cargo o logotipo con gran precisión, logrando un contraste atractivo y duradero. Presentado en un estuche de regalo, se convierte en la elección ideal para obsequios empresariales, reconocimientos o momentos especiales, transmitiendo distinción y buen gusto en cada trazo.",
+      "price": 13000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/Prestige.webp"
+    },
+
+    {
+      "id": "boli8",
+      "title": "Parker Jotter clip dorado y plateado.",
+      "description": "El bolígrafo Parker Jotter es un clásico de la escritura que combina diseño atemporal con máxima calidad. Fabricado en acero inoxidable con un acabado elegante y resistente, ofrece una escritura fluida y confiable en todo momento. Su clip característico puede elegirse en color dorado o plateado, permitiendo adaptarlo al estilo de cada persona. Presentado en un estuche original Parker, es el regalo perfecto para quienes valoran la distinción, la practicidad y el prestigio de una marca reconocida en todo el mundo. Ideal para uso personal o como obsequio corporativo con un toque de sofisticación.",
+      "price": 49000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/JotterDorado.webp"
+    },
+
+
+
+
 
 
 
 
     {
       "id": "grab1",
-      "title": "Placa Grabada en Madera - Chica",
-      "description": "Placa de madera con grabado láser, 10x15 cm.",
-      "price": 1800,
-      "category": "GrabadosEnMadera",
-      "image": "/images/grabados/placa_madera_chica.jpg"
+      "title": "Grabado de mate",
+      "description": "Este mate con grabado personalizado es una opción única para quienes quieren llevar su pasión a otro nivel. El diseño se realiza sobre la virola metálica con técnica de alta precisión, logrando un acabado prolijo, duradero y con gran detalle. Podés elegir escudos, nombres, frases o símbolos, transformando cualquier mate en un objeto distintivo y especial. Es un regalo ideal para hinchas, instituciones o como recuerdo personal. Importante: el servicio incluye únicamente el grabado, no el mate.",
+      "price": 12000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate.webp"
     },
     {
       "id": "grab2",
-      "title": "Cartel Grabado Madera - Logo",
-      "description": "Grabado en madera para logos o señalética interior.",
-      "price": 4200,
-      "category": "GrabadosEnMadera",
-      "image": "/images/grabados/cartel_logo.jpg"
+      "title": "Acrilico + Base de madera",
+      "description": "Este reconocimiento en acrílico con base de madera combina elegancia y sobriedad en una sola pieza. El acrílico transparente permite un grabado láser nítido y duradero, ideal para destacar logotipos, textos o mensajes personalizados con un acabado sofisticado. Su base de madera otorga firmeza y un contraste cálido que realza la estética general del diseño. Es una opción perfecta para premiaciones, agradecimientos institucionales, eventos corporativos o distinciones especiales, transmitiendo prestigio y aprecio en cada entrega.",
+      "price": 29000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Acrilico.webp"
     },
+
+    {
+      "id": "grab3",
+      "title": "Grabado de copa",
+      "description": "El grabado en copa es un detalle elegante y duradero que transforma una pieza de vidrio en un recuerdo único y personalizado. Gracias a la técnica láser de alta precisión, los diseños se plasman con nitidez y permanecen intactos con el uso y el lavado. Es perfecto para aniversarios, celebraciones, eventos corporativos o como obsequio especial, permitiendo grabar logotipos, fechas, iniciales o frases significativas. Un detalle sofisticado que realza cada brindis y deja una huella imborrable en cada ocasión. Importante: el servicio incluye únicamente el grabado, no la copa.",
+      "price": 9000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Copa.webp"
+    },
+
+    {
+      "id": "grab4",
+      "title": "Grabado de termo/vaso",
+      "description": "El grabado en termo/vaso es una forma original y duradera de personalizar tu accesorio favorito. Con técnica láser de alta precisión, se pueden plasmar nombres, logos, frases o ilustraciones con un acabado prolijo que no se borra con el uso ni el lavado. Es ideal para regalos personalizados, obsequios corporativos o simplemente para llevar un diseño único en tu día a día. El resultado combina funcionalidad y estilo, transformando un termo o vaso en una pieza especial y exclusiva. Importante: el servicio incluye únicamente el grabado, no el vaso/termo.",
+      "price": 15000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Termo.webp"
+    },
+
+    {
+      "id": "grab5",
+      "title": "Grabado etiquetas de cuero 4x2 100 unidades",
+      "description": "Las etiquetas de cuero grabadas son una opción resistente y elegante para personalizar tus productos. Realizadas en cuero de excelente calidad, permiten aplicar logotipos, nombres o diseños mediante grabado láser, logrando un acabado prolijo y duradero que no se borra con el uso. Su medida de 4x2 cm las hace ideales para indumentaria, accesorios, marroquinería o cualquier producto que busque transmitir identidad y un toque distintivo. El pack incluye 100 unidades, perfectas para emprendimientos o producciones en serie que necesiten calidad y presentación profesional.",
+      "price": 30000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/EtiquetaCuero.webp"
+    },
+
+
+
+
+
+
+
     {
       "id": "llav1",
       "title": "Llaverito Redondo",
@@ -102,11 +166,15 @@
       "category": "Llaveros",
       "image": "/images/llaveros/llavero_placa.jpg"
     },
+
+
+
+
     {
       "id": "plac1",
-      "title": "Placa Profesional - Aluminio",
-      "description": "Placa profesional en aluminio anodizado, 20x10 cm.",
-      "price": 5200,
+      "title": "Acrilico + Base de madera",
+      "description": "Este reconocimiento en acrílico con base de madera combina elegancia y sobriedad en una sola pieza. El acrílico transparente permite un grabado láser nítido y duradero, ideal para destacar logotipos, textos o mensajes personalizados con un acabado sofisticado. Su base de madera otorga firmeza y un contraste cálido que realza la estética general del diseño. Es una opción perfecta para premiaciones, agradecimientos institucionales, eventos corporativos o distinciones especiales, transmitiendo prestigio y aprecio en cada entrega.",
+      "price": 29000,
       "category": "PlacasProfesionales",
       "image": "/images/placas/placa_aluminio.jpg"
     },

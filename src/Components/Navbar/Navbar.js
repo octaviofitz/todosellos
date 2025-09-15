@@ -72,8 +72,8 @@ function BasicNavbar() {
                 <NavDropdown.Item as={Link} to="/categoria/sellos" onClick={() => setExpanded(false)}>
                   Sellos
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/categoria/grabadosenmadera" onClick={() => setExpanded(false)}>
-                  Grabados en madera
+                <NavDropdown.Item as={Link} to="/categoria/grabados" onClick={() => setExpanded(false)}>
+                  Grabados 
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/categoria/placasprofesionales" onClick={() => setExpanded(false)}>
                   Placas profesionales

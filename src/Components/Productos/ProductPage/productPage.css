@@ -1,3 +1,26 @@
+.contenedor-botonatras {
+    display: flex;
+    justify-content: flex-end; /* alinea a la derecha */
+    margin: 1rem 1.5rem 0 1.5rem; /* separa del borde */
+  }
+  
+  .botonatras {
+    color: var(--naranja) !important;
+    text-decoration: none !important;
+    font-size: 1.1rem;
+    font-weight: 600!important;
+    margin-bottom: -1rem;
+  }
+  
+  .botonatras:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 400!important;
+  }
+  
+
+
+
 .productPage{
     padding: 5vw;
     margin: 2rem 1rem;
@@ -51,3 +74,17 @@
     margin-top: 2rem;
     font-size: 1.1rem;
 }
+
+
+.btn-back {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .btn-back:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  

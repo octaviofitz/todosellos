@@ -1,5 +1,5 @@
 .header{
-    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/header/header.jpeg') center;
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/header/header.webp') center;
     background-size: cover;
     width: 100%;
     height: 65vh;
@@ -74,6 +74,15 @@
   }
 
   @media (min-width: 1024px){
+
+    .header{
+        background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/header/headerDesktop.webp') center;
+        background-size: auto;
+        width: 100%;
+        height: 65vh;
+        padding: 1rem;
+    }
+
     .header .titulo{
       padding: 19vh 3vw 0;
       font-size: 66px;

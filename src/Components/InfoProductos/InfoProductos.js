@@ -60,7 +60,7 @@ function InfoProductos() {
           <div>
             <img
               className="img"
-              src="/img/index/containerProductos/llavero.png"
+              src="/img/Productos/Llaveros/Acrilico.webp"
               alt="Llaveros"
             />
           </div>

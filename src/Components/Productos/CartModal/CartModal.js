@@ -5,35 +5,45 @@ import { Modal, Button } from "react-bootstrap";
 import { useCart } from "../../../Context/CartContext";
 import "./cartModal.css"; // ⬅️ Importa los estilos separados
 
-// 1. AHORA RECIBIMOS 'show' Y 'handleClose' COMO PROPS
+// Función utilitaria para formatear montos
+const formatCurrency = (value) =>
+  value.toLocaleString("es-AR", { minimumFractionDigits: 0 });
+
 export default function CartModal({ show, handleClose }) {
   const { cart = [], removeFromCart } = useCart();
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [payment, setPayment] = useState("efectivo");
-  
-  // 2. HEMOS ELIMINADO EL 'useState' LOCAL PARA LA VISIBILIDAD
 
   const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   const handleOrder = () => {
-    // ... (tu lógica para enviar el pedido a WhatsApp se mantiene igual)
-    const items = cart.map(
-      (item) =>
-        `- ${item.title}: ${item.quantity} x $${item.price.toFixed(2)} = $${(
-          item.price * item.quantity
-        ).toFixed(2)}`
-    ).join("\n");
+    const items = cart
+      .map(
+        (item) =>
+          `- ${item.title}: ${item.quantity} x $${formatCurrency(
+            item.price
+          )} = $${formatCurrency(item.price * item.quantity)}`
+      )
+      .join("\n");
 
-    const message = `*Pedido:* ${name}\n*Contacto:* ${phone}\n*Método de pago:* ${payment}\n\n-------------------------------\n\n*Productos*\n${items}\n\nART.: ${cart.length}   TOTAL: $${total}\n\n-------------------------------\n\n*FINAL A ABONAR:* $${total}`;
+    const message = `*Pedido:* ${name}\n*Contacto:* ${phone}\n*Método de pago:* ${payment}\n\n-------------------------------\n\n*Productos*\n${items}\n\nART.: ${
+      cart.length
+    }   TOTAL: $${formatCurrency(
+      total
+    )}\n\n-------------------------------\n\n*FINAL A ABONAR:* $${formatCurrency(
+      total
+    )}`;
 
-    const url = `https://wa.me/5491159300042?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/5491159300042?text=${encodeURIComponent(
+      message
+    )}`;
     window.open(url, "_blank");
   };
 
   return (
-    // 3. HEMOS QUITADO EL BOTÓN VERDE DE AQUÍ
-    <Modal show={show} onHide={handleClose}> {/* Usamos las props */}
+    <Modal show={show} onHide={handleClose}>
+      {/* Usamos las props */}
       <Modal.Header closeButton>
         <Modal.Title>Tu carrito</Modal.Title>
       </Modal.Header>
@@ -50,7 +60,9 @@ export default function CartModal({ show, handleClose }) {
                     {item.title} x {item.quantity}
                   </span>
                   <span className="cart-item-subtotal">
-                    <strong>${item.price * item.quantity}</strong>
+                    <strong>
+                      ${formatCurrency(item.price * item.quantity)}
+                    </strong>
                   </span>
                   <Button
                     variant="danger"
@@ -66,9 +78,7 @@ export default function CartModal({ show, handleClose }) {
             <hr />
 
             {/* Total */}
-            <div className="cart-total">
-              Total: ${total}
-            </div>
+            <div className="cart-total">Total: ${formatCurrency(total)}</div>
 
             {/* Formulario */}
             <div className="mt-3">
@@ -98,16 +108,16 @@ export default function CartModal({ show, handleClose }) {
                 value={payment}
                 onChange={(e) => setPayment(e.target.value)}
               >
-                <option value="efectivo">Efectivo</option>
-                <option value="transferencia">Transferencia</option>
-                <option value="tarjeta">Tarjeta de crédito/débito</option>
+                <option value="Efectivo">Efectivo</option>
+                <option value="Transferencia">Transferencia</option>
+                <option value="Tarjeta">Tarjeta de crédito/débito</option>
               </select>
             </div>
           </>
         )}
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}> {/* Usamos la prop */}
+        <Button variant="secondary" onClick={handleClose}>
           Cerrar
         </Button>
         {cart.length > 0 && (

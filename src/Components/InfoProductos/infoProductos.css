@@ -58,3 +58,29 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
 }
+
+
+@media (min-width: 768px){
+
+  .infoproductos .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .infoproductos .container .card{
+    width: 35vw;
+  }
+}
+
+@media (min-width: 1024px){
+  .infoproductos .container .card{
+    width: 20vw;
+  }
+}
+
+@media (min-width: 1440px){
+  .infoproductos .container .card{
+    width: 16vw;
+  }
+}

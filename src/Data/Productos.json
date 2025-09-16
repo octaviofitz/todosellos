@@ -202,19 +202,19 @@
 
     {
       "id": "llav1",
-      "title": "Llaverito Redondo",
-      "description": "Llaverito de madera redondo 40 mm, con grabado.",
-      "price": 550,
+      "title": "Llavero acrilico",
+      "description": "Estos llaveros están fabricados en acrílico transparente y grabados con láser de alta precisión, lo que les otorga un acabado elegante y duradero. Son livianos, resistentes y permiten destacar logos, escudos o diseños personalizados con gran detalle. Una opción ideal para egresados, instituciones, empresas o como recuerdo especial, combinando practicidad con un estilo moderno y distintivo.",
+      "price": 1300,
       "category": "Llaveros",
-      "image": "/images/llaveros/llavero_redondo.jpg"
+      "image": "/img/Productos/Llaveros/Acrilico.webp"
     },
     {
       "id": "llav2",
-      "title": "Llave-Mini Placa",
-      "description": "Llaverito metálico tipo placa, personalizable.",
-      "price": 680,
+      "title": "Llavero fibrofácil",
+      "description": "Estos llaveros están elaborados en fibrofacil y grabados con precisión, lo que les da un estilo rústico y personalizado. Son livianos, resistentes y con un acabado natural que resalta el diseño grabado en cada pieza. Ideales como recuerdo, regalo o para promocionar instituciones, grupos y emprendimientos, ya que permiten llevar siempre encima un detalle práctico y con identidad propia.",
+      "price": 1000,
       "category": "Llaveros",
-      "image": "/images/llaveros/llavero_placa.jpg"
+      "image": "/img/Productos/Llaveros/Fibrofacil.webp"
     },
 
 

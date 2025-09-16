@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { useCart } from "../../../Context/CartContext";
+import "./cartModal.css"; // ⬅️ Importa los estilos separados
 
 // 1. AHORA RECIBIMOS 'show' Y 'handleClose' COMO PROPS
 export default function CartModal({ show, handleClose }) {
@@ -18,8 +19,11 @@ export default function CartModal({ show, handleClose }) {
   const handleOrder = () => {
     // ... (tu lógica para enviar el pedido a WhatsApp se mantiene igual)
     const items = cart.map(
-        (item) => `- ${item.title}: ${item.quantity} x $${item.price.toFixed(2)} = $${(item.price * item.quantity).toFixed(2)}`
-      ).join("\n");
+      (item) =>
+        `- ${item.title}: ${item.quantity} x $${item.price.toFixed(2)} = $${(
+          item.price * item.quantity
+        ).toFixed(2)}`
+    ).join("\n");
 
     const message = `*Pedido:* ${name}\n*Contacto:* ${phone}\n*Método de pago:* ${payment}\n\n-------------------------------\n\n*Productos*\n${items}\n\nART.: ${cart.length}   TOTAL: $${total}\n\n-------------------------------\n\n*FINAL A ABONAR:* $${total}`;
 
@@ -38,45 +42,67 @@ export default function CartModal({ show, handleClose }) {
           <p>El carrito está vacío.</p>
         ) : (
           <>
-            {/* ... (todo el cuerpo del modal se mantiene exactamente igual) ... */}
-             {/* Lista de productos */}
-             <div className="space-y-3">
-               {cart.map((item) => (
-                 <div key={item.id} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "10px", }}>
-                   <span style={{ flex: 1, wordBreak: "break-word" }}>
-                     {item.title} x {item.quantity}
-                   </span>
-                   <span>
-                     <strong>${item.price * item.quantity}</strong>
-                   </span>
-                   <Button variant="danger" size="sm" onClick={() => removeFromCart(item.id)}>
-                     Quitar
-                   </Button>
-                 </div>
-               ))}
-             </div>
-             <hr />
-             {/* Total */}
-             <div style={{ textAlign: "right", fontWeight: "bold" }}>
-               Total: ${total}
-             </div>
-             {/* Formulario */}
-             <div className="mt-3">
-               <label className="form-label">Tu nombre</label>
-               <input type="text" className="form-control" value={name} onChange={(e) => setName(e.target.value)} placeholder="Ingresá tu nombre" />
-             </div>
-             <div className="mt-3">
-               <label className="form-label">Número de contacto</label>
-               <input type="tel" className="form-control" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Ej: 1123456789" />
-             </div>
-             <div className="mt-3">
-               <label className="form-label">Método de pago</label>
-               <select className="form-select" value={payment} onChange={(e) => setPayment(e.target.value)}>
-                 <option value="efectivo">Efectivo</option>
-                 <option value="transferencia">Transferencia</option>
-                 <option value="tarjeta">Tarjeta de crédito/débito</option>
-               </select>
-             </div>
+            {/* Lista de productos */}
+            <div className="space-y-3">
+              {cart.map((item) => (
+                <div key={item.id} className="cart-item">
+                  <span className="cart-item-title">
+                    {item.title} x {item.quantity}
+                  </span>
+                  <span className="cart-item-subtotal">
+                    <strong>${item.price * item.quantity}</strong>
+                  </span>
+                  <Button
+                    variant="danger"
+                    size="sm"
+                    onClick={() => removeFromCart(item.id)}
+                  >
+                    Quitar
+                  </Button>
+                </div>
+              ))}
+            </div>
+
+            <hr />
+
+            {/* Total */}
+            <div className="cart-total">
+              Total: ${total}
+            </div>
+
+            {/* Formulario */}
+            <div className="mt-3">
+              <label className="form-label">Tu nombre</label>
+              <input
+                type="text"
+                className="form-control"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Ingresá tu nombre"
+              />
+            </div>
+            <div className="mt-3">
+              <label className="form-label">Número de contacto</label>
+              <input
+                type="tel"
+                className="form-control"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                placeholder="Ej: 1123456789"
+              />
+            </div>
+            <div className="mt-3">
+              <label className="form-label">Método de pago</label>
+              <select
+                className="form-select"
+                value={payment}
+                onChange={(e) => setPayment(e.target.value)}
+              >
+                <option value="efectivo">Efectivo</option>
+                <option value="transferencia">Transferencia</option>
+                <option value="tarjeta">Tarjeta de crédito/débito</option>
+              </select>
+            </div>
           </>
         )}
       </Modal.Body>
@@ -85,7 +111,11 @@ export default function CartModal({ show, handleClose }) {
           Cerrar
         </Button>
         {cart.length > 0 && (
-          <Button variant="success" onClick={handleOrder} disabled={!name || !phone}>
+          <Button
+            variant="success"
+            onClick={handleOrder}
+            disabled={!name || !phone}
+          >
             Realizar pedido
           </Button>
         )}

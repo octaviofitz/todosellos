@@ -45,7 +45,7 @@ function CategoryPage() {
       <div className="container">
         {filtered.length > 0 ? (
           filtered.map((prod) => (
-            <div className="" key={prod.id}>
+            <div className="containerCard" key={prod.id}>
               <div className="card">
                 <img
                   src={prod.image}

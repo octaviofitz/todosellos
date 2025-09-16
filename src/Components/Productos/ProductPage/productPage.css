@@ -23,7 +23,7 @@
 
 .productPage{
     padding: 5vw;
-    margin: 2rem 1rem;
+    margin: 2rem 1rem 5rem;
     background-color: #eff3f3;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -65,15 +65,24 @@
 
 .productPage .formaPago{
     font-weight: 600;
-    margin-left: 0.5vw;
+    margin-left: 1vw;
     font-size: 1.1rem;
+}
+
+.productPage .caracteristicas{
+  font-weight: 600;
+  margin-left: 1vw;
+  margin-top: 1rem;
+  font-size: 1.15rem;
 }
 
 .productPage .descripcion{
     margin-left: 0.5vw;
-    margin-top: 2rem;
+    margin-top: 1.25rem;
     font-size: 1.1rem;
 }
+
+
 
 
 .btn-back {

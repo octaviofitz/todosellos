@@ -1,0 +1,30 @@
+/* Espaciado vertical entre hijos directos (similar a "space-y-3") */
+.space-y-3 > * + * {
+    margin-top: 1rem; /* 16px aprox */
+  }
+  
+  /* Fila del item: distribución exactamente como en los inline styles */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* coincide con el inline anterior */
+  }
+  
+  /* Título del item: ocupa el espacio disponible y permite cortar líneas largas */
+  .cart-item-title {
+    flex: 1;
+    word-break: break-word;
+  }
+  
+  /* Subtotal (mantiene el mismo comportamiento de antes) */
+  .cart-item-subtotal {
+    white-space: nowrap;
+  }
+  
+  /* Total alineado a la derecha y en negrita (como el inline) */
+  .cart-total {
+    text-align: right;
+    font-weight: bold;
+  }
+  

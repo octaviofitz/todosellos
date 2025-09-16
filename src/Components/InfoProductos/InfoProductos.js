@@ -25,7 +25,7 @@ function InfoProductos() {
           <div>
             <img
               className="img"
-              src="/img/Productos/PlacasProfesionales/PlacasProfesionales.webp"
+              src="/img/Productos/PlacasProfesionales/BicapaPlateada.webp"
               alt="Placas profesionales"
             />
           </div>

@@ -3,21 +3,71 @@
 
     {
       "id": "sell1",
-      "title": "Sello Texto Pequeño",
-      "description": "Sello con texto personalizable, tamaño 30x20 mm.",
-      "price": 1200,
+      "title": "Sello automático Sarito Profesional 2001 C/3L de texto",
+      "description": "El Automático Sarito Profesional 2001 con 3 líneas de texto es un sello confiable, práctico y duradero, diseñado para un uso intensivo en oficinas, comercios o emprendimientos. Su formato compacto y ergonómico lo hace fácil de manipular, mientras que permite personalizar hasta tres líneas de información, perfectas para incluir nombre, cargo, razón social, dirección, teléfono u otros datos importantes. Disponible en una variedad de colores modernos, combina funcionalidad con estilo, garantizando impresiones nítidas y rápidas en cada aplicación.",
+      "price": 10000,
       "category": "Sellos",
-      "image": "/images/sellos/sello_texto_peq.jpg"
+      "image": "/img/Productos/Sellos/Profesional2001.webp"
     },
 
     {
       "id": "sell2",
-      "title": "Sello Fecha Compacto",
-      "description": "Sello fechador compacto, ideal para oficinas.",
-      "price": 2200,
+      "title": "Sello automático Profesional 2000 Escolar C/3L de texto",
+      "description": "El Automático Profesional 2000 Escolar con 3 líneas de texto es un sello práctico, resistente y fácil de usar, ideal para docentes, estudiantes o instituciones educativas. Permite personalizar hasta tres líneas con la información que necesites, como nombre, curso, materia o cualquier dato importante, asegurando una identificación clara y rápida en cuadernos, carpetas o documentos. Su diseño compacto y los distintos colores disponibles lo hacen funcional y atractivo, garantizando impresiones limpias y duraderas en cada uso.",
+      "price": 10000,
       "category": "Sellos",
-      "image": "/images/sellos/sello_fecha.jpg"
+      "image": "/img/Productos/Sellos/Automatico2000.webp"
     },
+
+
+    {
+      "id": "sell3",
+      "title": "Sello Trodat 3911 C/3L de texto",
+      "description": "El Trodat 3911 con 3 líneas de texto es un sello automático compacto y resistente, ideal para uso diario en oficinas, negocios o emprendimientos. Su diseño permite personalizar hasta tres líneas, lo que lo convierte en la opción perfecta para incluir datos como nombre, cargo, dirección, teléfono o redes sociales. Además, está disponible en atractivos colores que le dan un toque moderno y distintivo. Con un sistema de entintado interno recambiable, garantiza impresiones limpias, rápidas y duraderas en cada uso.",
+      "price": 12000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/Trodat.webp"
+    },
+
+    {
+      "id": "sell4",
+      "title": "Sello automático Shiny 222 C/3L. de texto",
+      "description": "El Automático Shiny es un sello confiable, práctico y duradero, ideal para el uso cotidiano en oficinas, comercios, instituciones o emprendimientos. Su mecanismo automático permite un sellado rápido y preciso con solo presionar, evitando manchas y logrando impresiones claras en cada aplicación. Está disponible en varios colores, lo que le da un toque moderno y personalizable. Compacto, resistente y con almohadilla recambiable, es la herramienta perfecta para quienes buscan calidad y practicidad en cada documento.",
+      "price": 11000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/Shiny.webp"
+    },
+
+    {
+      "id": "sell5",
+      "title": "Fechador Shiny Automatico",
+      "description": "El Fechador Shiny Automático es una herramienta práctica y confiable para oficinas, negocios o instituciones que requieren organización y control en sus documentos. Permite estampar la fecha de manera clara, rápida y precisa, con un diseño automático que evita manchas y facilita un uso ágil en cada aplicación. Su estructura robusta asegura durabilidad incluso en un uso intensivo, mientras que el sistema de entintado interno ofrece impresiones limpias y uniformes. Ideal para facturas, comprobantes, archivos y todo tipo de documentación que necesite estar debidamente fechada y validada.",
+      "price": 35000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/Fechador.webp"
+    },
+
+
+    {
+      "id": "sell6",
+      "title": "Sellos corrección docente 6 sellos + almohadilla",
+      "description": "Un set pensado para docentes que buscan corregir con estilo, practicidad y un toque divertido. Incluye seis sellos con frases originales y simpáticas que permiten dar devoluciones rápidas y creativas en los trabajos, junto con una almohadilla entintada lista para usar. Ideal para resaltar logros, señalar detalles a mejorar y motivar a los alumnos de una forma diferente y visualmente atractiva. Con este kit, la corrección se vuelve más dinámica y los estudiantes reciben mensajes claros y motivadores en cada devolución.",
+      "price": 20000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/CorreccionDocente.webp"
+    },
+
+    {
+      "id": "sell7",
+      "title": "Box Emprendedor: sello 10x10 + almohadilla + tinta",
+      "description": "Un kit práctico y completo pensado para emprendedores que quieren darle identidad y profesionalismo a cada entrega. Incluye un sello de gran tamaño de 10x10 cm ideal para destacar tu marca en bolsas, cajas o sobres, acompañado de una almohadilla resistente y una tinta de calidad para asegurar impresiones nítidas y duraderas. Todo en una presentación lista para usar, perfecta para potenciar la imagen de tu emprendimiento con un detalle personalizado y atractivo.",
+      "price": 32000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/BoxEmprendedor.webp"
+    },
+
+
+
 
 
 
@@ -172,19 +222,19 @@
 
     {
       "id": "plac1",
-      "title": "Acrilico + Base de madera",
-      "description": "Este reconocimiento en acrílico con base de madera combina elegancia y sobriedad en una sola pieza. El acrílico transparente permite un grabado láser nítido y duradero, ideal para destacar logotipos, textos o mensajes personalizados con un acabado sofisticado. Su base de madera otorga firmeza y un contraste cálido que realza la estética general del diseño. Es una opción perfecta para premiaciones, agradecimientos institucionales, eventos corporativos o distinciones especiales, transmitiendo prestigio y aprecio en cada entrega.",
-      "price": 29000,
+      "title": "Placa Profesional: bicapa plateada + madera + caja",
+      "description": "Placa con terminación elegante y duradera, realizada en bicapa plateada montada sobre base de madera lustrada y presentada en caja para mayor protección. Un diseño sobrio y distinguido que la convierte en la opción ideal para homenajes, reconocimientos o recordatorios especiales. Su acabado metálico resalta el grabado, asegurando un mensaje claro y perdurable en el tiempo, mientras que la madera aporta calidez y presencia. Perfecta para instituciones, empresas o particulares que buscan un recuerdo con calidad y estilo.",
+      "price": 70000,
       "category": "PlacasProfesionales",
-      "image": "/images/placas/placa_aluminio.jpg"
+      "image": "/img/Productos/PlacasProfesionales/BicapaPlateada.webp"
     },
     {
       "id": "plac2",
-      "title": "Placa Profesional - Bronce",
-      "description": "Placa de bronce pulido para uso profesional y corporativo.",
-      "price": 7600,
+      "title": "Bicapa Dorada + Caja + Madera",
+      "description": "Placa con un estilo elegante y distinguido, fabricada en bicapa dorada sobre base de madera lustrada y presentada en caja. Su acabado metálico brillante resalta cada detalle del grabado, convirtiéndola en la elección ideal para aniversarios, reconocimientos, homenajes o celebraciones institucionales. La combinación de la calidez de la madera con el brillo del dorado transmite prestigio y solemnidad, asegurando que el mensaje perdure en el tiempo y se convierta en un recuerdo memorable.",
+      "price": 70000,
       "category": "PlacasProfesionales",
-      "image": "/images/placas/placa_bronce.jpg"
+      "image": "/img/Productos/PlacasProfesionales/BicapaDorada.webp"
     }
   ]
   

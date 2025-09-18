@@ -84,26 +84,152 @@
   transform: translateY(-4px);
 }
 
-/* Responsive */
+/* >= 768px */
 @media (min-width: 768px){
-  .infoproductos .container{
-    grid-template-columns: repeat(2, 1fr);
-    place-items: stretch;  /* 🔹 que usen todo el ancho en desktop */
+
+  .infoproductos .container .card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;     /* ocupa toda la fila */
+    justify-self: center;    /* se centra en el medio */
+    width: 35vw;             /* mantiene el mismo ancho que las otras */
   }
 
+
+  .infoproductos{
+    margin-top: -1rem;
+    padding: 1rem 0.5rem 3rem;
+  }
+
+  .infoproductos .titulo{
+    padding: 4vw 8vw 4vw;
+  }
+
+  /* GRID: 2 columnas de 35vw, centrado (última impar centrada) */
+  .infoproductos .container{
+    display: grid;
+    grid-template-columns: repeat(2, 35vw);
+    justify-content: center;   /* centra la última fila si queda 1 */
+    gap: 1.25rem;
+    width: min(1200px, 92vw);
+    margin: 0 auto;
+  }
+
+  /* Cada card usa exactamente el ancho del track y misma estructura */
   .infoproductos .container .card{
-    width: auto; /* 🔹 que se adapten al grid */
+    width: 35vw;               /* asegura el mismo ancho exacto */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Imagen: altura EXACTA = 35vw * 3/4 (relación 4:3) */
+  .infoproductos .container .card > div{
+    width: 100%;
+    height: calc(35vw * 0.75);
+    /* quitamos aspect-ratio para evitar redondeos distintos */
+  }
+
+  .infoproductos .container .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  /* Título: misma altura fija en todas las cards */
+  .infoproductos .container .card .subtitulo{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    height: 3.2rem;           /* alto fijo → todas iguales */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    text-align: center;
+    overflow: hidden;         /* por si hay 2 líneas */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
 @media (min-width: 1024px){
+
   .infoproductos .container{
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    justify-content: center;
+    column-gap: 2.25rem;   /* más separación lateral */
+    row-gap: 2rem;
+    width: min(1400px, 92vw);
+    margin: 0 auto;
+  }
+
+  /* reset por si quedó la regla de 768px */
+  .infoproductos .container .card:last-child:nth-child(odd){
+    grid-column: auto !important;
+    justify-self: auto !important;
+    width: 20vw !important;
+  }
+
+  /* todas iguales */
+  .infoproductos .container .card{ width: 20vw; }
+  .infoproductos .container .card > div{ height: calc(20vw * 0.75); } /* 4:3 exacto */
+
+  /* títulos: 2 líneas reales y mismas alturas (sin elipsis agresiva) */
+  .infoproductos .container .card .subtitulo{
+    font-size: clamp(1.05rem, 1.15vw, 1.35rem);
+    line-height: 1.2;
+    padding: .9rem 1rem;
+    height: calc(2 * 1.2em + 1.8rem); /* 2 líneas + padding */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;            /* si se pasa de 2, recién ahí elipsis */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    word-break: break-word;
+    hyphens: auto;
+  }
+
+  /* ✅ centrar las ÚLTIMAS DOS:
+     penúltima → columna 1, última → columna 3 */
+  .infoproductos .container .card:nth-last-child(2):nth-child(3n+1){
+    grid-column: 1 !important;
+  }
+  .infoproductos .container .card:last-child:nth-child(3n+2){
+    grid-column: 3 !important;
+  }
+
+  .infoproductos .container .card:nth-last-child(2):nth-child(3n+1){
+    grid-column: 2;
+  }
+  .infoproductos .container .card:last-child:nth-child(3n+2){
+    grid-column: 3;
+  }
+
+  .infoproductos .container .card .subtitulo{
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 1rem 0;
   }
 }
 
+/* >=1440px mantenemos el patrón */
 @media (min-width: 1440px){
   .infoproductos .container{
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 20vw);
+    justify-content: center;
+    column-gap: 2.25rem;
+    row-gap: 2rem;
   }
+
+  .infoproductos .titulo{
+    padding: 3vw 12.5vw 1.75vw;
+    font-size: 3.5rem;
+}
+
+.infoproductos .container .card .subtitulo{
+  font-size: 1.5vw;
+  margin: 1rem 0 0;
+  padding: 1rem 0;
+}
 }

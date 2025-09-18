@@ -34,7 +34,7 @@
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    margin: 2rem auto 1rem;
+    margin: 1.25rem auto 1rem;
 }
 
 .productPage .titulo{
@@ -43,6 +43,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 6vw;
+    margin-top: 0.5rem;
 }
 
 .productPage .precio{

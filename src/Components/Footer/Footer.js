@@ -8,7 +8,7 @@ function Footer() {
             <div>
             <img src='/img/logos/logo.png' alt='Logo Todo Sellos' className='logo' />
             </div>
-           <div>
+           <div className='datos'>
            <p className='texto'>Mariano Boedo 438, Lomas de Zamora 📍</p>
             <p className='texto'>Lunes a viernes de 9 a 17HS ⏱️</p>
             <p className='texto'>Envíos a todo el país 📦</p>

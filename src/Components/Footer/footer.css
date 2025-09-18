@@ -19,6 +19,29 @@
     font-weight: 600;
 }
 
+
+@media (min-width:768px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer .logo{
+        width: 100px;
+    }
+
+    .footer .datos{
+        margin-top: 0.65rem;
+    }
+
+    .footer .texto{
+        margin-bottom: 0.75rem;
+    }
+
+
+}
+
+
 @media (min-width:1024px){
     .footer {
         display: flex;
@@ -28,4 +51,17 @@
     .footer .logo{
         width: 120px;
     }
+
+    .footer .datos{
+        margin-top: 1rem;
+    }
+
+}
+
+@media (min-width:1440px){
+
+    .footer .datos{
+        margin-top: 1.25rem;
+    }
+
 }

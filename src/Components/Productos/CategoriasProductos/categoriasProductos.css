@@ -1,11 +1,15 @@
 .categoriasProductos{
     padding: 3vw;
-    margin: 1rem 1rem 3rem;
+    margin: 1rem 0.75rem 3rem;
+    background-color: #eff3f3;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .categoriasProductos .titulo{
     text-align: left;
-    margin-left: 1vw;
+    margin-left: 6vw;
+    margin-top: 1rem;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -14,14 +18,14 @@
 }
 
 .categoriasProductos .card{
-    background-color: #eff3f3;
+    background-color: white;
     padding-bottom: 0.15rem;
     margin-bottom: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .categoriasProductos .containerCard{
-  padding: 0 5vw;
+  padding: 0 3vw;
 }
 
 

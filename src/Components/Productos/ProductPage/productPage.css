@@ -74,8 +74,10 @@
 .productPage .caracteristicas{
   font-weight: 600;
   margin-left: 1vw;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1.15rem;
+  border-top: 1px solid rgb(212, 212, 212);
+  padding-top: 1rem;
 }
 
 .productPage .descripcion{

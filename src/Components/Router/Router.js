@@ -11,6 +11,7 @@ import ScrollToTop from '../Utilidades/ScrollToTop/ScrollToTop';
 import BotonWP from '../Utilidades/Whatsapp/BotonWP';
 import CategoriasProductos from '../Productos/CategoriasProductos/CategoriasProductos'; 
 import Contacto from '../Contacto/Contacto';
+import NuestrosClientes from '../NuestrosClientes/NuestrosClientes'
 import ProductPage from '../Productos/ProductPage/ProductPage'; 
 
 
@@ -31,6 +32,7 @@ function Router() {
                 <>
                   <Header />
                   <Presentacion />
+                  <NuestrosClientes />
                   <InfoProductos />
                   <Contacto />
                 </>

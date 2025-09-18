@@ -6,7 +6,9 @@ function Presentacion() {
     return (
         <section className='presentacion'> 
         <h3 className='titulo'>Nosotros</h3>
-            <p className='texto'>Somos <strong>TODO SELLOS</strong>, una empresa de mas de 30 años de experiencia, en la <strong>fabricación de sellos, placas, grabados y cortes laser</strong>. Atencion al publico, empresas, emprendimientos y Proovedores del rubro. La fabrica cuenta con maquinas de alta tecnología y un equipo de trabajo altamente calificado. Fabricamos sellos en la mejor goma laserable del mercado, dejando así un producto final de excelente calidad. Nuestro local esta ubicado en <strong>Mariano Boedo 438, Lomas de Zamora</strong>.</p>
+            <p className='texto'>TODO SELLOS es una empresa con más de 30 años de experiencia en la fabricación de sellos, placas, grabados y cortes láser. Brindamos soluciones de calidad a particulares, empresas, emprendimientos y proveedores del rubro.</p>
+            <p className='texto'>Nuestra fábrica cuenta con maquinaria de última tecnología y un equipo altamente capacitado, lo que nos permite garantizar trabajos precisos, duraderos y de excelente terminación.</p>
+            <p className='texto'>Te esperamos en nuestro local de Mariano Boedo 438, Lomas de Zamora, donde encontrarás asesoramiento personalizado y la mejor atención.</p>
         </section>
     );
 }

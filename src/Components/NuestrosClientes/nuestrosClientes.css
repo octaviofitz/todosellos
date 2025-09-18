@@ -1,0 +1,41 @@
+.ClientesMobile{
+    margin: 2rem 0;
+  }
+  
+  .ClientesMobile .titulo{
+    padding: 2vw 10vw;
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--azul);
+    margin-bottom: 0.9rem;
+  }
+  
+  
+  /* Marco con tamaño consistente: NO genera saltos de altura */
+  .carrusel .slide-frame {
+    width: 80vw;        /* ajustá a gusto */
+    max-width: 520px;   /* opcional para no crecer demasiado */
+    margin: 0 auto 1rem;
+    aspect-ratio: 4 / 3; /* 1/1 (cuadrado), 16/9, etc. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;   /* por si el logo tiene transparencia */
+    overflow: hidden;   /* por si acaso */
+  }
+  
+  /* La imagen se adapta sin deformarse ni salirse del marco */
+  .carrusel .slide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* para logos: no recorta */
+    display: block;
+  }
+  
+  /* Si usás captions, que no alteren el alto del slide */
+  .carrusel .carousel-caption {
+    position: static;   /* o ponelo en absolute si querés superpuesto */
+    padding-top: .5rem;
+  }
+  

@@ -1,0 +1,38 @@
+.ClientesDesktop{
+    display: none;
+}
+
+@media (min-width: 1024px){
+    .ClientesDesktop {
+        padding: 3rem 2rem;
+        text-align: center;
+        background: #f8f9fa; /* opcional, para resaltar la sección */
+        display: inline;
+      }
+      
+      .ClientesDesktop .titulo {
+        padding: 4vw 8vw 1vw;
+        font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--azul);
+      }
+      
+      .ClientesDesktop .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;   /* 🔹 permite que se acomoden en varias filas si no entran */
+        gap: 2rem;         /* espacio entre logos */
+      }
+      
+      .ClientesDesktop .img {
+        max-height: 80px;  /* 🔹 todos los logos tendrán la misma altura */
+        width: auto;       /* 🔹 mantiene proporción */
+        object-fit: contain;
+        display: block;
+      }
+}
+
+
+  

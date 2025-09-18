@@ -13,6 +13,7 @@ import CategoriasProductos from '../Productos/CategoriasProductos/CategoriasProd
 import Contacto from '../Contacto/Contacto';
 import NuestrosClientes from '../NuestrosClientes/NuestrosClientes'
 import ProductPage from '../Productos/ProductPage/ProductPage'; 
+import ClientesDesktop from '../NuestrosClientesDesktop/ClientesDesktop';
 
 
 function Router() {
@@ -33,6 +34,7 @@ function Router() {
                   <Header />
                   <Presentacion />
                   <NuestrosClientes />
+                  <ClientesDesktop />
                   <InfoProductos />
                   <Contacto />
                 </>

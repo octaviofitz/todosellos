@@ -1,86 +1,109 @@
 .infoproductos{
-    margin: 2rem 0 0;
-    background-color: #dfeeee;
-    padding: 3rem 0;
+  margin: 2rem 0 0;
+  background-color: #dfeeee;
+  padding: 3rem 0;
 }
 
 .infoproductos .titulo{
   padding: 2vw 10vw;
-  font-size: 2.25rem;
+  font-size: 2.5rem;   /* título principal más grande */
   font-weight: 600;
   text-transform: uppercase;
   color: var(--azul);
 }
 
+/* Contenedor */
 .infoproductos .container{
-  display: flex;
-  margin: auto;
-  flex-direction: column;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  width: min(1200px, 92vw);
+  place-items: center;   /* 🔹 centra las cards en mobile */
 }
 
+/* Card uniforme */
 .infoproductos .container .card{
-  width: 70vw;
+  width: 75vw;  /* 🔹 más angosta en mobile */
   display: flex;
-  flex-direction: column; /* importante para que la img vaya arriba y el texto abajo */
-  margin: 1rem auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.infoproductos .container .img{
-  width: 100%;         /* ocupa todo el ancho de la card */
-  height: auto;        /* mantiene proporción */
-  object-fit: cover;   /* recorta si hace falta */
-  display: block;      /* elimina márgenes raros de inline elements */
-}
-
-.infoproductos .container .card .subtitulo{
-  font-size: 1.7rem;
-  text-align: center;
-  color: var(--azul);
-  font-weight: 600;
-  margin-top: 1rem;
-  padding: 0 1rem;
+  flex-direction: column;
+  border: 1px solid #e2e8f0;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 6px 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .infoproductos a{
   text-decoration: none;
 }
 
-
-/* Estilos de la tarjeta por defecto */
-.infoproductos .container .card {
-  border: 1px solid #e2e8f0; /* Borde sutil */
-  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transición para la sombra y la elevación */
+/* Wrapper con relación de aspecto fija */
+.infoproductos .container .card > div{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f7fafc;
+  display: block;
 }
 
-/* Efecto de sombra y elevación al pasar el cursor */
-.infoproductos .container .card:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transform: translateY(-5px);
+/* Imagen por defecto */
+.infoproductos .container .img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
+/* Variante para imágenes problemáticas */
+.infoproductos .container .img.img--contain{
+  object-fit: contain;
+  padding: 8%;
+  background: #fff;
+}
 
+/* Texto */
+.infoproductos .container .card .subtitulo{
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--azul);
+  font-weight: 700;
+  margin: 0;
+  padding: 0.85rem 1rem 1rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-wrap: balance;
+  word-break: break-word;
+  min-height: 3.2rem;
+}
+
+/* Hover */
+.infoproductos .container .card:hover{
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+}
+
+/* Responsive */
 @media (min-width: 768px){
-
   .infoproductos .container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: stretch;  /* 🔹 que usen todo el ancho en desktop */
   }
 
   .infoproductos .container .card{
-    width: 35vw;
+    width: auto; /* 🔹 que se adapten al grid */
   }
 }
 
 @media (min-width: 1024px){
-  .infoproductos .container .card{
-    width: 20vw;
+  .infoproductos .container{
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1440px){
-  .infoproductos .container .card{
-    width: 16vw;
+  .infoproductos .container{
+    grid-template-columns: repeat(4, 1fr);
   }
 }

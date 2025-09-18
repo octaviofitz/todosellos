@@ -14,6 +14,40 @@
 .presentacion .texto{
     padding: 0vw 5vw;
     font-size: 1.15rem;   
-    text-align: justify;
     margin: 0vw 3vw 0vw;
+}
+
+
+@media (min-width: 1024px){
+    .presentacion{
+        padding: 1rem 0.5rem 3rem;
+    }
+    
+    .presentacion .titulo{
+        padding: 4vw 8vw 1vw;
+        font-size: 3.5rem;
+    }
+    
+    .presentacion .texto{
+        padding: 0vw 5vw;
+        font-size: 1.5rem;   
+        margin: 0vw 3vw;
+    }
+}
+
+@media (min-width: 1440px){
+    .presentacion{
+        padding: 1rem 5vw 4.5rem;
+    }
+    
+    .presentacion .titulo{
+        padding: 3vw 8vw 1.75vw;
+        font-size: 3.5rem;
+    }
+    
+    .presentacion .texto{
+        padding: 0vw 5vw;
+        font-size: 1.5rem;   
+        margin: 0vw 3vw 0vw;
+    }
 }

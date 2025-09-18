@@ -12,31 +12,31 @@ function NoTransitionExample() {
       <Carousel slide={false} className='carrusel'>
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/MunicipioLomas.png" alt="Municipio de Lomas" />
+            <img className="slide-img" src="/img/index/clientes/MunicipioLomas.webp" alt="Municipio de Lomas" />
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/Arca.png" alt="Arca" />
+            <img className="slide-img" src="/img/index/clientes/Arca.webp" alt="Arca" />
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/Banfield.png" alt="Banfield" />
+            <img className="slide-img" src="/img/index/clientes/Banfield.webp" alt="Banfield" />
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/Unla.png" alt="UNLa" />
+            <img className="slide-img" src="/img/index/clientes/Unla.webp" alt="UNLa" />
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/Anses.svg" alt="UNLa" />
+            <img className="slide-img" src="/img/index/clientes/Anses.webp" alt="UNLa" />
           </div>
         </Carousel.Item>
 
@@ -44,13 +44,13 @@ function NoTransitionExample() {
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/Unab.png" alt="UNLa" />
+            <img className="slide-img" src="/img/index/clientes/Unab.webp" alt="UNLa" />
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/LosAndes.png" alt="UNLa" />
+            <img className="slide-img" src="/img/index/clientes/LosAndes.webp" alt="UNLa" />
           </div>
         </Carousel.Item>
 

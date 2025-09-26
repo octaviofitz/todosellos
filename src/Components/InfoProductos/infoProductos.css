@@ -163,6 +163,11 @@
     margin: 0 auto;
   }
 
+  .infoproductos .titulo{
+    padding: 4vw 8vw 3vw;
+        font-size: 3.5rem;
+  }
+
   /* reset por si quedó la regla de 768px */
   .infoproductos .container .card:last-child:nth-child(odd){
     grid-column: auto !important;
@@ -223,7 +228,7 @@
   }
 
   .infoproductos .titulo{
-    padding: 3vw 12.5vw 1.75vw;
+    padding: 3vw 12.5vw 3vw;
     font-size: 3.5rem;
 }
 

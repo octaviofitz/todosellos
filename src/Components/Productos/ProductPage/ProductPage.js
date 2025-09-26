@@ -45,27 +45,45 @@ export default function ProductPage() {
       </div>
 
       <div className="productPage">
-        <h2 className="titulo">{product.title}</h2>
 
-        <img src={product.image} alt={product.title} className="img" />
+        <div className="conteinerGeneral">
 
-        <p className="precio">${product.price.toLocaleString("es-AR")}</p>
+        <div className="contenedorImagen">
 
-        <p className="formaPago">
-          Se puede abonar por transferencia, efectivo y tarjeta
-        </p>
+          <img src={product.image} alt={product.title} className="img" />
 
-        <Button
-          variant="secondary"
-          size="lg"
-          className="boton-carrito"
-          onClick={handleAddToCart}
-        >
-          Agregar al carrito
-        </Button>
+          </div>
 
+          <div className="contenedorData">
+
+          <h2 className="titulo">{product.title}</h2> 
+
+            <p className="precio">${product.price.toLocaleString("es-AR")}</p>
+
+            <p className="formaPago">
+              Se puede abonar por transferencia, efectivo y tarjeta
+            </p>
+
+            <Button
+              variant="secondary"
+              size="lg"
+              className="boton-carrito"
+              onClick={handleAddToCart}
+            >
+              Agregar al carrito
+            </Button>
+
+</div>
+
+        </div>
+
+        
+        <div className="containerCaracteristicas">
         <p className="caracteristicas">Características:</p>
         <p className="descripcion">{product.description}</p>
+        </div>
+
+       
       </div>
 
       {/* Contenedor de toasts (colocado aquí para que el componente sea autosuficiente).

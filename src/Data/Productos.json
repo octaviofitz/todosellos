@@ -31,7 +31,7 @@
 
     {
       "id": "sell4",
-      "title": "Sello automático Shiny 222 C/3L. de texto",
+      "title": "Sello automático Shiny 222 C/3L de texto",
       "description": "El Automático Shiny es un sello confiable, práctico y duradero, ideal para el uso cotidiano en oficinas, comercios, instituciones o emprendimientos. Su mecanismo automático permite un sellado rápido y preciso con solo presionar, evitando manchas y logrando impresiones claras en cada aplicación. Está disponible en varios colores, lo que le da un toque moderno y personalizable. Compacto, resistente y con almohadilla recambiable, es la herramienta perfecta para quienes buscan calidad y practicidad en cada documento.",
       "price": 11000,
       "category": "Sellos",
@@ -59,12 +59,122 @@
 
     {
       "id": "sell7",
-      "title": "Box Emprendedor: sello 10x10 + almohadilla + tinta",
+      "title": "Box Emprendedor",
       "description": "Un kit práctico y completo pensado para emprendedores que quieren darle identidad y profesionalismo a cada entrega. Incluye un sello de gran tamaño de 10x10 cm ideal para destacar tu marca en bolsas, cajas o sobres, acompañado de una almohadilla resistente y una tinta de calidad para asegurar impresiones nítidas y duraderas. Todo en una presentación lista para usar, perfecta para potenciar la imagen de tu emprendimiento con un detalle personalizado y atractivo.",
       "price": 32000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/BoxEmprendedor.webp"
     },
+
+    {
+      "id": "sell8",
+      "title": "Fechador con texto manual",
+      "description": "Este fechador manual con plancha de 60x40 mm es una herramienta práctica y confiable para oficinas, comercios y tareas administrativas. Fabricado en Argentina, combina un diseño resistente con un funcionamiento sencillo, permitiendo marcar fechas y textos de forma clara y profesional. Su estructura metálica asegura durabilidad y precisión en cada uso, mientras que su empuñadura ergonómica facilita el manejo diario. Ideal para mantener un control organizado en documentos, facturas o registros, garantizando siempre una impresión nítida y uniforme.",
+      "price": 22000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/SelladorManual.webp"
+    },
+
+
+    {
+      "id": "sell9",
+      "title": "Trodat printy 4911 C/3L",
+      "description": "Sello automático Trodat Printy 4911 con 3 líneas de impresión, práctico y confiable para el uso diario en oficinas, negocios o uso personal. Su diseño compacto y moderno está disponible en una amplia variedad de colores, aportando estilo además de funcionalidad. Ofrece impresiones limpias y precisas, con un mecanismo de entintado automático que asegura comodidad y rapidez en cada aplicación. Una herramienta indispensable para organizar y dar un toque profesional a cualquier documento.",
+      "price": 18500,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/Trodat4911.webp"
+    },
+
+    {
+      "id": "sell10",
+      "title": "Automático trodat 4911 Ideal. C/3L",
+      "description": "El sello automático Trodat 4911 Ideal con capacidad para 3 líneas es una solución práctica y eficiente para el marcado de documentos. Su diseño compacto y ergonómico facilita el uso diario, garantizando impresiones claras y uniformes en cada aplicación. Perfecto para oficinas, estudios o uso personal, combina calidad, durabilidad y comodidad, convirtiéndose en una herramienta indispensable para mantener la organización y profesionalidad en el trabajo.",
+      "price": 13000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/TrodatIdeal.webp"
+    },
+
+    {
+      "id": "sell11",
+      "title": "Fechador manual",
+      "description": "El fechador manual de 5 mm es una opción práctica y resistente para el marcado de fechas en documentos, sobres o registros. Su diseño clásico con ruedas giratorias permite ajustar fácilmente día, mes y año, garantizando precisión y claridad en cada impresión. Con un mango ergonómico y estructura metálica, está pensado para un uso frecuente en oficinas, comercios e instituciones que requieren mantener un control organizado y profesional.",
+      "price": 2900,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/FechadorManual.webp"
+    },
+
+    {
+      "id": "sell12",
+      "title": "Fechador con Lote/Vto",
+      "description": "Fechador manual con indicación de Lote y Vencimiento, diseñado especialmente para el control de productos y documentos en comercios, depósitos e industrias. Su mecanismo de bandas giratorias permite ajustar fácilmente día, mes, año y datos de lote/vto., asegurando un marcado claro y ordenado. Con estructura metálica resistente y mango ergonómico, ofrece durabilidad y comodidad en el uso diario, siendo una herramienta esencial para la trazabilidad y organización profesional.",
+      "price": 15000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/FechadorLote.webp"
+    },
+
+    {
+      "id": "sell13",
+      "title": "Numerador manual",
+      "description": "Numerador manual Shiny N-46 de 6 bandas, ideal para llevar un control organizado en documentos, facturas, tickets o productos. Su sistema de ruedas giratorias permite seleccionar fácilmente la numeración deseada, ofreciendo impresiones claras y uniformes. Con un diseño robusto y práctico, combina mango ergonómico con estructura resistente, garantizando comodidad y durabilidad en el uso diario. Una herramienta confiable para oficinas, depósitos e industrias que requieren orden y precisión.",
+      "price": 4900,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/NumeradorManual.webp"
+    },
+
+    {
+      "id": "sell14",
+      "title": "Sellos Pocket Trodat con 3 lineas de texto",
+      "description": "Los sellos Pocket Trodat con 3 líneas de texto son prácticos, compactos y fáciles de llevar a cualquier lugar. Su diseño moderno y funcional permite transportarlos en bolsillos, carteras o maletines sin ocupar espacio, siendo ideales para profesionales en movimiento. Ofrecen impresiones claras y precisas, con un mecanismo confiable que garantiza comodidad y rapidez en cada uso. Disponibles en diferentes colores, combinan estilo y utilidad, convirtiéndose en una excelente herramienta para mantener documentos organizados en todo momento.",
+      "price": 16000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/Pocket.webp"
+    },
+
+    {
+      "id": "sell15",
+      "title": "Tinta para sello Ópalo",
+      "description": "Tinta para sellos marca Ópalo, línea Tintas 999. Ideal para obtener impresiones claras y duraderas en todo tipo de sellos de goma. Su presentación práctica permite un uso sencillo y limpio. Disponible en una amplia variedad de colores para adaptarse a todas tus necesidades de identificación y marcado. Colores disponibles: negro, azul, rojo, verde, violeta, rosa, marrón, naranja.",
+      "price": 1100,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/TintaOpalo.webp"
+    },
+
+    {
+      "id": "sell17",
+      "title": "Tinta 1/2lts indeleble",
+      "description": "Tinta indeleble Ópalo H-33 en presentación de 1/2 litro (450 cc). Especialmente formulada para marcar con sellos de goma o bronce sobre polietileno, “celofán”, cartón parafinado y otras superficies muy pulidas. Su secado es instantáneo, lo que garantiza impresiones firmes y duraderas. Ideal para trabajos que requieren máxima resistencia y calidad profesional.",
+      "price": 24000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/TintaIndeleble.webp"
+    },
+
+    {
+      "id": "sell18",
+      "title": "Tinta al agua 1/2lts",
+      "description": "Tinta al agua Ópalo tipo múltiple en presentación de 1/2 litro. Especial para usar en almohadillas de fieltro o goma microporosa con sellos de goma natural, sintética o fotopolímero. Garantiza impresiones claras y uniformes, con excelente rendimiento y durabilidad. Producto ideal para oficinas, comercios y uso profesional.",
+      "price": 13000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/TintaAlAgua.webp"
+    },
+
+    {
+      "id": "sell19",
+      "title": "Tinta 30cc indeleble",
+      "description": "Tinta indeleble Ópalo H-33 en envase de 30 cc. Diseñada para marcar con sellos de goma o de bronce sobre superficies difíciles como polietileno, “celofán”, cartón parafinado y otras muy pulidas. Su fórmula de secado instantáneo garantiza impresiones firmes, nítidas y resistentes, ideal para aplicaciones profesionales que requieren máxima durabilidad.",
+      "price": 3200,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/TintaIndeleble2.webp"
+    },
+
+    {
+      "id": "sell16",
+      "title": "Automático Ovalado con texto incluído",
+      "description": "Sello automático ovalado con texto incluido. Modelo autoentintable de alta calidad que ofrece impresiones nítidas y uniformes en segundos. Carcasa robusta y cómoda, almohadilla integrada reemplazable y mecanismo suave para miles de marcadas. Ideal para datos comerciales, logos o firmas; listo para personalizar y usar en oficinas, comercios y estudios.",
+      "price": 29000,
+      "category": "Sellos",
+      "image": "/img/Productos/Sellos/Ovalado.webp"
+    },
+
 
 
 
@@ -143,6 +253,15 @@
       "image": "/img/Productos/Boligrafos/JotterDorado.webp"
     },
 
+    {
+      "id": "boli9",
+      "title": "Bolígrafo Prestige",
+      "description": "Elegante bolígrafo Prestige presentado en estuche individual, ideal para regalos corporativos, institucionales o personales. Su diseño sofisticado y moderno combina materiales de alta calidad con un acabado fino que garantiza estilo y distinción en cada escritura. Suave al trazo y cómodo en mano, es una opción perfecta para quienes buscan un accesorio práctico y con presencia.",
+      "price": 13000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/BoligrafoPrestige.webp"
+    },
+
 
 
 
@@ -194,6 +313,24 @@
       "image": "/img/Productos/Grabados/EtiquetaCuero.webp"
     },
 
+    {
+      "id": "grab6",
+      "title": "Acrílico 30x20 + madera + caja",
+      "description": "Placa conmemorativa de acrílico grabado de 30x20 cm, montada sobre base de madera pulida que realza su elegancia y durabilidad. Ideal para aniversarios, reconocimientos institucionales, homenajes o celebraciones especiales. Su diseño combina la transparencia y distinción del acrílico con la calidez de la madera, logrando una pieza sobria y de alta calidad. Se entrega en caja de presentación, lista para obsequiar o exhibir en cualquier espacio.",
+      "price": 85000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/AcrilicoMaderaCaja.webp"
+    },
+
+    {
+      "id": "grab7",
+      "title": "Grabado de direcciones",
+      "description": "Placa decorativa en madera con grabado de dirección personalizada. Diseño elegante y resistente, ideal para casas, oficinas o cabañas. El acabado en madera le da un estilo clásico y cálido, mientras que los números y letras en relieve metálico garantizan una excelente visibilidad y durabilidad. Perfecta para identificar tu domicilio con un toque distintivo y sofisticado.",
+      "price": 20000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Direcciones.webp"
+    },
+
 
 
 
@@ -228,6 +365,7 @@
       "category": "PlacasProfesionales",
       "image": "/img/Productos/PlacasProfesionales/BicapaPlateada.webp"
     },
+
     {
       "id": "plac2",
       "title": "Bicapa Dorada + Caja + Madera",

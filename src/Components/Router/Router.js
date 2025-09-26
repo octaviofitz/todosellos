@@ -34,7 +34,7 @@ function Router() {
                   <Header />
                   <Presentacion />
                   <NuestrosClientes />
-                  {/* <ClientesDesktop /> */}
+                   <ClientesDesktop /> 
                   <InfoProductos />
                   <Contacto />
                 </>

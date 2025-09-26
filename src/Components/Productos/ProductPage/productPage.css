@@ -102,3 +102,158 @@
     text-decoration: underline;
   }
   
+  @media(min-width: 768px){
+    
+    .productPage{
+      margin: 2rem 5vw;
+    }
+
+    .botonatras {
+     margin-right: 8vw;
+    }
+
+    .productPage .titulo{
+      font-size: 4vw;
+      margin-top: 2rem;
+      margin-left: 0.5rem;
+    }
+
+    .productPage .img{
+      width: 60vw;
+    }
+
+    .productPage .precio{
+      font-size: 3.5vw;
+    }
+
+    .productPage .formaPago{
+      font-size: 2.5vw;
+    }
+  }
+
+  @media(min-width: 1024px){
+
+    .productPage{
+      margin: 2rem 10vw;
+    }
+  
+    .productPage .conteinerGeneral{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0 3rem;
+      gap: 4rem; /* separación entre columnas */
+    }
+  
+    .productPage .contenedorImagen{
+      flex: 0 0 35vw; /* 👈 columna fija en 40vw */
+      display: flex;
+      justify-content: center;
+    }
+  
+    .productPage .contenedorImagen .img{
+      width: 100%;   /* la imagen ocupa toda la columna */
+      max-width: 35vw;
+      border-radius: 10px;
+    }
+  
+    .productPage .contenedorData{
+      flex: 1;        /* el resto del espacio para los textos */
+      max-width: 600px;
+    }
+  
+    .productPage .titulo{
+      font-size: 2vw;
+      margin-top: 2rem;
+      margin-left: 0.5rem;
+    }
+  
+    .productPage .precio{
+      font-size: 2vw;
+    }
+  
+    .productPage .formaPago{
+      font-size: 1.5vw;
+    }
+
+    .productPage .boton-carrito{
+      width: 40vw;
+      max-width: 190px;
+      margin-left: 0.5vw;
+      padding: 0.55rem 0;
+      text-align: left;
+      padding-left: 0.75rem;
+      font-size: 1.15rem;
+  }
+
+  .productPage .containerCaracteristicas{
+    padding: 1rem 3rem 0;
+  }
+
+  .productPage .containerCaracteristicas .caracteristicas{
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+  }
+  
+  }
+  
+
+  @media(min-width: 1440px){
+    .productPage{
+      margin: 2rem 12vw 6rem;
+    }
+
+    .botonatras {
+      margin-right: 11vw;
+      margin-bottom: 0.25rem;
+     }
+
+    .productPage .contenedorImagen{
+      flex: 0 0 30vw; /* 👈 columna fija en 40vw */
+      display: flex;
+      justify-content: center;
+    }
+  
+    .productPage .contenedorImagen .img{
+      width: 100%;   /* la imagen ocupa toda la columna */
+      max-width: 25vw;
+      border-radius: 10px;
+    }
+
+    .productPage .titulo{
+      font-size: 2rem;
+      margin-top: 2rem;
+      margin-left: 0.5rem;
+    }
+  
+    .productPage .precio{
+      font-size: 1.8rem;
+      margin-left: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    .productPage .formaPago{
+      font-size: 1.25rem;
+      margin-left: 0.5rem;
+    }
+
+    .productPage .boton-carrito{
+      margin-top: 1rem;
+  }
+
+  .productPage .containerCaracteristicas{
+    padding: 1rem 5rem 0;
+  }
+
+  .productPage .containerCaracteristicas .caracteristicas{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .productPage .containerCaracteristicas .descripcion{
+    font-size: 1.35rem;
+    margin-top: 1.5rem;
+  }
+
+  }

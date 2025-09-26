@@ -64,41 +64,73 @@
   }
   
   @media (min-width: 1024px) {
-    .container-contacto {
-      margin: 0rem 1rem;
+
+    .contacto{
+      padding: 5rem;
     }
-  
-    .contacto-title {
-      font-size: 3rem;
-    }
-  
-    .contacto-data {
-      font-size: 1.15rem;
-    }
-  
+
     .container-contacto {
       display: flex;
+      align-items: flex-start;   /* 🔑 alinea arriba los dos bloques */
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
     }
   
     .texto-contacto,
     .formulario-contacto {
-      padding: 1.5rem 3rem;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    /* ya no centramos verticalmente, solo flujo normal */
+    .texto-contacto {
+      display: flex;
+      flex-direction: column;
     }
   
     #formulario {
-      margin-right: 0rem;
+      width: 100%;
+      margin: 0;
+      padding: 0 1rem;
     }
-  }
   
-  @media (min-width: 1280px) {
     .contacto-title {
-      margin-top: 1rem;
+      padding: 0vw 0vw 1vw;
       font-size: 3.5rem;
+      margin-left: 1rem;
     }
   
     .contacto-data {
-      margin-top: 2rem;
-      font-size: 1.5rem;
+      padding: 0;
+      margin-top: 0.5rem;
+      margin-left: 1rem;
     }
+  }
+
+  @media (min-width:1440px){
+   
+    .contacto{
+      padding: 5rem 5vw 3.5rem;
+  }
+
+  .contacto-title{
+    padding: 0vw 0vw 1.75vw;
+    font-size: 3.5rem;
+    margin-left: 0;
+}
+
+.contacto-data {
+  padding-left: 0vw;
+  margin-top: -1rem;
+  margin-left: 0rem;
+}
+
+.texto-contacto,
+.formulario-contacto {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
   }
   

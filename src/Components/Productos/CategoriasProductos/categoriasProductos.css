@@ -1,59 +1,152 @@
 .categoriasProductos{
-    padding: 3vw;
-    margin: 1rem 0.75rem 3rem;
-    background-color: #eff3f3;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 3vw;
+  margin: 1rem 0.75rem 3rem;
+  background-color: #eff3f3;
+  border-radius: 10px;
 }
 
+/* Título de la sección */
 .categoriasProductos .titulo{
-    text-align: left;
-    margin-left: 6vw;
-    margin-top: 1rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    color: var(--azul);
-    font-size: 2.25rem;
+  text-align: left;
+  margin-left: 6vw;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--azul);
+  font-size: 2.25rem;
 }
 
-.categoriasProductos .card{
-    background-color: white;
-    padding-bottom: 0.15rem;
-    margin-bottom: 1.5rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+/* ===== CONTENEDOR (FLEX, NO GRID) ===== */
+.categoriasProductos .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  align-items: flex-start;        /* evita estirar en exceso las más bajas */
 }
 
+/* Cada columna/card wrapper */
 .categoriasProductos .containerCard{
-  padding: 0 3vw;
+  display: flex;
+  flex: 0 1 320px;               /* base ~320px, responde mejor */
+  max-width: 420px;
 }
 
+/* ===== CARD ===== */
+.categoriasProductos .card{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0,0,0,.16) 0 10px 36px 0, rgba(0,0,0,.06) 0 0 0 1px;
+}
 
+/* Imagen apaisada (más ancha que alta) */
+.categoriasProductos .card .img{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 
+/* Zona de datos: sin “espacio blanco” extra */
+.categoriasProductos .card .containerData{
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+  gap: 0.75rem;
+  justify-content: space-between;   /* empuja el botón abajo SIN rellenar de más */
+  min-height: auto;
+}
+
+/* Título del producto (2 líneas máx) */
 .categoriasProductos .card .titulo{
-    margin-top: 1rem;
-    color: black;
-    font-weight: 500;
-    font-size: 1.1rem;
-    margin-left: 0.5rem;
-    text-align: center;
-    padding: 0 1rem;
-    margin-bottom: 1.15rem;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.4em;                /* altura para 2 líneas */
 }
 
-/* .categoriasProductos .card .containerData .precio{
-    margin-top: -0.75rem;
-    margin-left: 0.5rem;
+/* Botón pegado abajo, sin margen inferior extra */
+.categoriasProductos .card .containerData .boton-carrito{
+  background-color: var(--naranja);
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0.45rem 1.5rem;
+  width: fit-content;
+  align-self: center;
+  margin: 0;                         /* nada de hueco por debajo */
+  color: #fff;
 }
- */
- .categoriasProductos .card .containerData .boton-carrito {
-    background-color: var(--naranja);
-    margin: -0.5rem auto 0.75rem; /* auto centra en bloque */
-    border-radius: 10px;
-    border: none;
-    font-size: 1rem;
-    padding: 0.45rem 1.5rem;
-    width: fit-content;   /* se ajusta al contenido */
-    display: block;       /* para que funcione bien el margin auto */
-    text-align: center;
+
+/* ====== BREAKPOINTS ====== */
+@media (min-width: 768px){
+  .categoriasProductos{
+    margin: 2rem 3rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
+
+  .categoriasProductos .containerCard{
+    flex: 0 1 28vw;                  /* cards más anchas */
+  }
+
+  /* Altura fija moderada para igualar cards sin “columnas gigantes” */
+
+}
+
+@media (min-width: 1024px){
+  .categoriasProductos{
+    margin: 2rem 5rem 4rem;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .categoriasProductos .titulo{
+    padding: 4vw 2vw 1vw;
+    font-size: 3.5rem;
+  }
+
+  .categoriasProductos .containerCard{
+    flex: 0 1 22vw;                  /* apaisadas en desktop */
+    margin-bottom: 2rem;
+  }
+
+  .categoriasProductos .card .titulo{
+    padding-top: 0.2rem;
+    /* padding-bottom: 1rem; */
+  }
+
+  .categoriasProductos .card .containerData{
+    padding-bottom: 1rem;
+  }
+
+/*   .categoriasProductos .card .containerData .boton-carrito{
+    margin-top: 0.75rem;
+  }
+ */
+
+}
+
+@media (min-width: 1440px){
+  .categoriasProductos{
+    margin: 4rem 10rem 6rem;
+  }
+
+  .categoriasProductos .containerCard{
+    flex: 0 1 18vw;
+    max-width: none;
+  }
+
+
+}

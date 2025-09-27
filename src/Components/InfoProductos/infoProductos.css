@@ -153,6 +153,10 @@
 
 @media (min-width: 1024px){
 
+  .infoproductos{
+    padding-bottom: 5rem;
+  }
+
   .infoproductos .container{
     display: grid;
     grid-template-columns: repeat(3, 20vw);
@@ -161,6 +165,7 @@
     row-gap: 2rem;
     width: min(1400px, 92vw);
     margin: 0 auto;
+
   }
 
   .infoproductos .titulo{

@@ -9,9 +9,24 @@ function Footer() {
             <img src='/img/logos/logo.png' alt='Logo Todo Sellos' className='logo' />
             </div>
            <div className='datos'>
-           <p className='texto'>Mariano Boedo 438, Lomas de Zamora 📍</p>
-            <p className='texto'>Lunes a viernes de 9 a 17HS ⏱️</p>
-            <p className='texto'>Envíos a todo el país 📦</p>
+           <p className="redes">
+                <a 
+                    href="https://www.instagram.com/todosellos438/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Todo Sellos <i className="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                </p>
+                <p className="texto">
+  <a 
+    href="https://maps.app.goo.gl/d17Pv8L346W7RENw9" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    Mariano Boedo 438, Lomas de Zamora 📍
+  </a>
+</p>            <p className='texto'>Lunes a viernes de 9 a 17HS ⏱️</p>
            </div>
           
         </footer>

@@ -1,9 +1,9 @@
-import React, { useState } from 'react'; // 1. IMPORTAMOS useState
+import React, { useState } from 'react'; // 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useCart } from '../../Context/CartContext';
 import CartModal from "../Productos/CartModal/CartModal";
 
@@ -21,15 +21,51 @@ function BasicNavbar() {
   // Nuevo: estado controlado del colapso del Navbar
   const [expanded, setExpanded] = useState(false);
 
-  // Cerramos el navbar luego de hacer scroll / click
-  const scrollTo = (id) => (e) => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // Utilidad: scroll robusto con reintentos hasta que el nodo exista
+  const scrollWhenReady = (id) => {
+    let attempts = 0;
+    const maxAttempts = 60; // ~1 segundo si corre a 60fps
+
+    const tryScroll = () => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // reflejamos el hash en la URL
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, '', `/#${id}`);
+        } else {
+          window.location.hash = `#${id}`;
+        }
+      } else if (attempts < maxAttempts) {
+        attempts += 1;
+        requestAnimationFrame(tryScroll);
+      }
+    };
+
+    requestAnimationFrame(tryScroll);
+  };
+
+  // Ir a sección desde cualquier ruta
+  const goToSection = (id) => (e) => {
     e.preventDefault();
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    if (location.pathname !== "/") {
+      // 1) navegamos a la home
+      navigate("/", { replace: false });
+      // 2) intentamos scrollear cuando el DOM de Home esté listo
+      scrollWhenReady(id);
+    } else {
+      // Ya en home: scrolleo directo
+      scrollWhenReady(id);
+    }
+
     setExpanded(false); // <--- cierra el menú en mobile
   };
 
-  // Pequeña mejora: creamos el ícono del carrito como una variable para no repetir código
+  // Pequeña mejora: ícono del carrito como variable
   const CartIcon = (
     <div className="cart-wrapper" onClick={handleShowCart} style={{ cursor: 'pointer' }}>
       <span className="cart-emoji">🛒</span>
@@ -52,7 +88,12 @@ function BasicNavbar() {
         <Container className="d-flex justify-content-between align-items-center">
 
           {/* LOGO */}
-          <Navbar.Brand as={Link} to="/" className="d-flex align-items-center" onClick={() => setExpanded(false)}>
+          <Navbar.Brand
+            as={Link}
+            to="/"
+            className="d-flex align-items-center"
+            onClick={() => setExpanded(false)}
+          >
             <img src="/img/logos/logo.png" alt="Logo Todo Sellos" className="logo" />
           </Navbar.Brand>
 
@@ -65,7 +106,10 @@ function BasicNavbar() {
           {/* NAVS + carrito en DESKTOP */}
           <Navbar.Collapse id="basic-navbar-nav" className="text-lg-end">
             <Nav className="ms-auto">
-              <Nav.Link href="#nosotros" onClick={scrollTo('nosotros')}>Nosotros</Nav.Link>
+              {/* Usamos onClick + navigate manual para controlar el scroll */}
+              <Nav.Link as={Link} to="/" onClick={goToSection('nosotros')}>
+                Nosotros
+              </Nav.Link>
 
               <NavDropdown title="Productos" id="basic-nav-dropdown">
                 {/* IMPORTANTE: cerrar el menú al clickear un item */}
@@ -86,7 +130,9 @@ function BasicNavbar() {
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="#contacto" onClick={scrollTo('contacto')}>Contacto</Nav.Link>
+              <Nav.Link as={Link} to="/" onClick={goToSection('contacto')}>
+                Contacto
+              </Nav.Link>
 
               {/* Carrito emoji DESKTOP */}
               <div className="d-none d-lg-flex align-items-center">

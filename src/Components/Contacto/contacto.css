@@ -44,6 +44,20 @@
     border: none;
     padding: 0.75rem 2rem;
   }
+
+  .contacto-data a{
+    color: var(--azul);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .contacto-data:last-child{
+    margin-top: -0.5rem;
+  }
+
+  .fa-instagram{
+    color: #e1306c;
+  }
   
   @media (min-width: 768px) {
     .contacto {
@@ -71,9 +85,9 @@
 
     .container-contacto {
       display: flex;
-      align-items: flex-start;   /* 🔑 alinea arriba los dos bloques */
+      align-items: flex-start;   
       gap: 2rem;
-      max-width: 1200px;
+      /* max-width: 1200px; */
       margin: 0 auto;
     }
   
@@ -115,7 +129,7 @@
   }
 
   .contacto-title{
-    padding: 0vw 0vw 1.75vw;
+    padding: 0vw 8vw 1.75vw;
     font-size: 3.5rem;
     margin-left: 0;
 }
@@ -123,13 +137,18 @@
 .contacto-data {
   padding-left: 0vw;
   margin-top: -1rem;
-  margin-left: 0rem;
+  margin-left: 8vw;
+  font-size: 1.4rem;
 }
 
 .texto-contacto,
 .formulario-contacto {
   flex: 0 0 50%;
   max-width: 50%;
+}
+
+.contacto-data:last-child{
+  margin-top: 0rem;
 }
 
   }

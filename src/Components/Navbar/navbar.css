@@ -88,9 +88,31 @@
   .navbar-expand-lg .navbar-nav .dropdown-menu{
     margin-left: 18%;
   }
+
+  .navbar .dropdown-menu {
+    background-color: #f8f9fa !important;
+    border: none !important;
+    padding: 0.5rem;          /* crea el “aire” interno */
+    border-radius: 0.5rem;     /* opcional */
+    overflow: hidden;          /* evita que algo se asome por los bordes */
+  }
+  
+  /* Los items SIN márgenes, que ocupen todo el ancho del menú */
+  .navbar .dropdown-item {
+    margin: 0 !important;      /* <- quita el hueco que te generaba la “mancha” */
+    padding: 0.6rem 0.9rem;     /* espacio interno del item */
+    border-top: none;
+    font-weight: 600;
+    border-radius: 0.35rem;     /* opcional, para hover redondeado */
+  }
+  
+  /* Hover consistente (sin cambiar el ancho) */
+  .navbar .dropdown-item:hover,
+  .navbar .dropdown-item:focus {
+    background-color: #ffffff !important; /* o #eef1f4 si preferís un gris */
+    color: #212529 !important;
+  }
   
 }
 
-@media (min-width: 1440px) {
 
-}

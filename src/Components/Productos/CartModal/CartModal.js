@@ -35,7 +35,7 @@ export default function CartModal({ show, handleClose }) {
       total
     )}`;
 
-    const url = `https://wa.me/5491159300042?text=${encodeURIComponent(
+    const url = `https://wa.me/541150381057?text=${encodeURIComponent(
       message
     )}`;
     window.open(url, "_blank");

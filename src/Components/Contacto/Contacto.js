@@ -71,6 +71,18 @@ const Contacto = () => {
             el formulario y nuestro equipo se pondrá en contacto para responder
             tus consultas y ofrecerte la mejor atención personalizada
           </p>
+
+          <p className='contacto-data'>
+            También podés encontrarnos en nuestro Instagram:&nbsp;
+            <a 
+              href="https://www.instagram.com/todosellos438/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Todo Sellos <i className="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            </p>
+        
         </div>
         <div className="formulario-contacto">
           <Box

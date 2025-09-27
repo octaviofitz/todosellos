@@ -3,49 +3,51 @@
 }
 
 @media (min-width: 1024px){
-    .ClientesDesktop {
-        padding: 1rem 4rem 10rem;
-        background: #f8f9fa; /* opcional, para resaltar la sección */
-        display: inline;
-      }
-      
-      .ClientesDesktop .titulo {
-        padding: 2vw 8vw 1vw;
-        font-size: 3.5rem;
+  .ClientesDesktop{
+    display: block;         /* ← no inline */
+    padding: 1rem 4rem 0rem;
+    background: #fff;       /* fondo sólido para tapar cualquier cosa detrás */
+    position: relative;     /* crea contexto para z-index */
+    isolation: isolate;     /* nuevo stacking context, evita “sangrados” */
+    z-index: 10;            /* por encima de adornos vecinos */
+    overflow: hidden;       /* por si algo asoma desde los bordes */
+  }
+
+  .ClientesDesktop .titulo {
+    padding: 2vw 2vw 1vw;
+    font-size: 3.5rem;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--azul);
     margin-bottom: 2rem;
-      }
-      
-      .ClientesDesktop .logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;   /* 🔹 permite que se acomoden en varias filas si no entran */
-        gap: 2rem;         /* espacio entre logos */
-        margin-bottom: 4rem;
-        padding: 2rem 4rem;
-      }
-      
-      .ClientesDesktop .img {
-        max-height: 80px;  /* 🔹 todos los logos tendrán la misma altura */
-        width: auto;       /* 🔹 mantiene proporción */
-        object-fit: contain;
-        display: block;
-      }
+  }
+
+  .ClientesDesktop .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    padding: 2rem 4rem;
+  }
+
+  .ClientesDesktop .img {
+    max-height: 80px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+  }
 }
 
 @media (min-width: 1440px){
   .ClientesDesktop{
-    padding: 1rem 5vw 4.5rem;
-}
-
-.ClientesDesktop .titulo{
-    padding: 3vw 13vw 1.75vw;
+    padding: 1rem 5vw 0rem;
+  }
+  .ClientesDesktop .titulo{
+    padding: 3vw 8vw 1.75vw;
     font-size: 3.5rem;
+  }
 }
-}
-
 
   

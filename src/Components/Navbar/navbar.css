@@ -9,9 +9,15 @@
 
 /* Links del navbar */
 .navbar .nav-link {
-  color: black !important;
+  color: var(--azul) !important;
   font-size: 1.15rem;
   margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover{
+  color: var(--naranja)!important;
+  font-weight: 600;
 }
 
 /* Dropdown */
@@ -26,6 +32,10 @@
   margin: 0.5rem;
   font-weight: 600;
   border-top: none; /* <-- Elimina cualquier borde superior */
+}
+
+.navbar .dropdown-item:hover {
+  color: var(--naranja)!important;
 }
 
 .navbar .dropdown-item:first-child {
@@ -104,13 +114,14 @@
     border-top: none;
     font-weight: 600;
     border-radius: 0.35rem;     /* opcional, para hover redondeado */
+    color: var(--azul);
   }
   
   /* Hover consistente (sin cambiar el ancho) */
   .navbar .dropdown-item:hover,
   .navbar .dropdown-item:focus {
     background-color: #ffffff !important; /* o #eef1f4 si preferís un gris */
-    color: #212529 !important;
+    color: var(--naranja)!important;
   }
   
 }

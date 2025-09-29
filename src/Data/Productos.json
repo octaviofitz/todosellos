@@ -262,6 +262,18 @@
       "image": "/img/Productos/Boligrafos/BoligrafoPrestige.webp"
     },
 
+    {
+      "id": "boli10",
+      "title": "Bolígrafo con cartón reciclable",
+      "description": "Bolígrafo ecológico con cuerpo de cartón reciclable y detalles plásticos de colores. Incluye grabado personalizado por láser, ideal para nombres, frases o logotipos. Su diseño liviano y cómodo lo convierte en una excelente opción para regalos, eventos o uso diario, combinando practicidad con un compromiso sustentable.",
+      "price": 2500,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/BoligrafoCarton.webp"
+    },
+
+
+
+
 
 
 
@@ -277,17 +289,10 @@
       "category": "Grabados",
       "image": "/img/Productos/Grabados/Mate.webp"
     },
-    {
-      "id": "grab2",
-      "title": "Acrilico + Base de madera",
-      "description": "Este reconocimiento en acrílico con base de madera combina elegancia y sobriedad en una sola pieza. El acrílico transparente permite un grabado láser nítido y duradero, ideal para destacar logotipos, textos o mensajes personalizados con un acabado sofisticado. Su base de madera otorga firmeza y un contraste cálido que realza la estética general del diseño. Es una opción perfecta para premiaciones, agradecimientos institucionales, eventos corporativos o distinciones especiales, transmitiendo prestigio y aprecio en cada entrega.",
-      "price": 29000,
-      "category": "Grabados",
-      "image": "/img/Productos/Grabados/Acrilico.webp"
-    },
+   
 
     {
-      "id": "grab3",
+      "id": "grab2",
       "title": "Grabado de copa",
       "description": "El grabado en copa es un detalle elegante y duradero que transforma una pieza de vidrio en un recuerdo único y personalizado. Gracias a la técnica láser de alta precisión, los diseños se plasman con nitidez y permanecen intactos con el uso y el lavado. Es perfecto para aniversarios, celebraciones, eventos corporativos o como obsequio especial, permitiendo grabar logotipos, fechas, iniciales o frases significativas. Un detalle sofisticado que realza cada brindis y deja una huella imborrable en cada ocasión. Importante: el servicio incluye únicamente el grabado, no la copa.",
       "price": 9000,
@@ -296,7 +301,7 @@
     },
 
     {
-      "id": "grab4",
+      "id": "grab3",
       "title": "Grabado de termo/vaso",
       "description": "El grabado en termo/vaso es una forma original y duradera de personalizar tu accesorio favorito. Con técnica láser de alta precisión, se pueden plasmar nombres, logos, frases o ilustraciones con un acabado prolijo que no se borra con el uso ni el lavado. Es ideal para regalos personalizados, obsequios corporativos o simplemente para llevar un diseño único en tu día a día. El resultado combina funcionalidad y estilo, transformando un termo o vaso en una pieza especial y exclusiva. Importante: el servicio incluye únicamente el grabado, no el vaso/termo.",
       "price": 15000,
@@ -305,7 +310,7 @@
     },
 
     {
-      "id": "grab5",
+      "id": "grab4",
       "title": "Grabado etiquetas de cuero 4x2 100 unidades",
       "description": "Las etiquetas de cuero grabadas son una opción resistente y elegante para personalizar tus productos. Realizadas en cuero de excelente calidad, permiten aplicar logotipos, nombres o diseños mediante grabado láser, logrando un acabado prolijo y duradero que no se borra con el uso. Su medida de 4x2 cm las hace ideales para indumentaria, accesorios, marroquinería o cualquier producto que busque transmitir identidad y un toque distintivo. El pack incluye 100 unidades, perfectas para emprendimientos o producciones en serie que necesiten calidad y presentación profesional.",
       "price": 30000,
@@ -313,23 +318,26 @@
       "image": "/img/Productos/Grabados/EtiquetaCuero.webp"
     },
 
-    {
-      "id": "grab6",
-      "title": "Acrílico 30x20 + madera + caja",
-      "description": "Placa conmemorativa de acrílico grabado de 30x20 cm, montada sobre base de madera pulida que realza su elegancia y durabilidad. Ideal para aniversarios, reconocimientos institucionales, homenajes o celebraciones especiales. Su diseño combina la transparencia y distinción del acrílico con la calidez de la madera, logrando una pieza sobria y de alta calidad. Se entrega en caja de presentación, lista para obsequiar o exhibir en cualquier espacio.",
-      "price": 85000,
-      "category": "Grabados",
-      "image": "/img/Productos/Grabados/AcrilicoMaderaCaja.webp"
-    },
+  
 
     {
-      "id": "grab7",
+      "id": "grab5",
       "title": "Grabado de direcciones",
       "description": "Placa decorativa en madera con grabado de dirección personalizada. Diseño elegante y resistente, ideal para casas, oficinas o cabañas. El acabado en madera le da un estilo clásico y cálido, mientras que los números y letras en relieve metálico garantizan una excelente visibilidad y durabilidad. Perfecta para identificar tu domicilio con un toque distintivo y sofisticado.",
       "price": 20000,
       "category": "Grabados",
       "image": "/img/Productos/Grabados/Direcciones.webp"
     },
+
+    {
+      "id": "grab6",
+      "title": "Grabado de termo",
+      "description": "Termo personalizado con grabado láser de alta calidad, con un diseño detallado y duradero que no se borra con el uso. Ideal para quienes buscan un producto con estilo y un toque distintivo. El grabado se realiza con precisión, asegurando un acabado elegante y profesional. Perfecto para uso personal o como regalo original. No incluye el termo, solo el grabado.",
+      "price": 11000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/TermoGrabado.webp"
+    },
+
 
 
 
@@ -373,6 +381,24 @@
       "price": 70000,
       "category": "PlacasProfesionales",
       "image": "/img/Productos/PlacasProfesionales/BicapaDorada.webp"
+    },
+
+    {
+      "id": "plac3",
+      "title": "Acrilico + Base de madera",
+      "description": "Este reconocimiento en acrílico con base de madera combina elegancia y sobriedad en una sola pieza. El acrílico transparente permite un grabado láser nítido y duradero, ideal para destacar logotipos, textos o mensajes personalizados con un acabado sofisticado. Su base de madera otorga firmeza y un contraste cálido que realza la estética general del diseño. Es una opción perfecta para premiaciones, agradecimientos institucionales, eventos corporativos o distinciones especiales, transmitiendo prestigio y aprecio en cada entrega.",
+      "price": 29000,
+      "category": "PlacasProfesionales",
+      "image": "/img/Productos/PlacasProfesionales/Acrilico.webp"
+    },
+
+    {
+      "id": "plac4",
+      "title": "Acrílico 30x20 + madera + caja",
+      "description": "Placa conmemorativa de acrílico grabado de 30x20 cm, montada sobre base de madera pulida que realza su elegancia y durabilidad. Ideal para aniversarios, reconocimientos institucionales, homenajes o celebraciones especiales. Su diseño combina la transparencia y distinción del acrílico con la calidez de la madera, logrando una pieza sobria y de alta calidad. Se entrega en caja de presentación, lista para obsequiar o exhibir en cualquier espacio.",
+      "price": 85000,
+      "category": "PlacasProfesionales",
+      "image": "/img/Productos/PlacasProfesionales/AcrilicoMaderaCaja.webp"
     }
   ]
   

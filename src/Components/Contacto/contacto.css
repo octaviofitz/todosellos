@@ -51,6 +51,10 @@
     text-decoration: none;
   }
 
+  .contacto-data a:hover{
+    color: var(--naranja);
+  }
+
   .contacto-data:last-child{
     margin-top: -0.5rem;
   }

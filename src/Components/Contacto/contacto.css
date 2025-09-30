@@ -157,3 +157,23 @@
 
   }
   
+
+  .button-contacto {
+    background-color: #ccc;            /* gris cuando está deshabilitado */
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* 🔸 Cuando está habilitado */
+  .button-contacto:not(:disabled) {
+    background-color: var(--naranja);  /* tu color naranja */
+    cursor: pointer;
+  }
+  
+  /* 🔸 Hover del botón habilitado */
+  .button-contacto:not(:disabled):hover {
+    background-color: #e67c00;         /* un poco más oscuro */
+  }

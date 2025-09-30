@@ -1,5 +1,5 @@
 .categoriasProductos{
-  padding: 3vw;
+  padding: 3vw 3vw 10vw;
   margin: 1rem 0.75rem 3rem;
   background-color: #eff3f3;
   border-radius: 10px;
@@ -94,6 +94,7 @@
 @media (min-width: 768px){
   .categoriasProductos{
     margin: 2rem 3rem 3rem;
+    padding: 3vw 3vw 5vw;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
 
@@ -131,10 +132,6 @@
     padding-bottom: 1rem;
   }
 
-/*   .categoriasProductos .card .containerData .boton-carrito{
-    margin-top: 0.75rem;
-  }
- */
 
 }
 

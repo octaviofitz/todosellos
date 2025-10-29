@@ -36,7 +36,7 @@ function NoTransitionExample() {
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/Anses.webp" alt="UNLa" />
+            <img className="slide-img" src="/img/index/clientes/Anses.webp" alt="Anses" />
           </div>
         </Carousel.Item>
 
@@ -44,13 +44,13 @@ function NoTransitionExample() {
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/Unab.webp" alt="UNLa" />
+            <img className="slide-img" src="/img/index/clientes/Unab.webp" alt="Unab" />
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <div className="slide-frame">
-            <img className="slide-img" src="/img/index/clientes/LosAndes.webp" alt="UNLa" />
+            <img className="slide-img" src="/img/index/clientes/LosAndes.webp" alt="Los Andes" />
           </div>
         </Carousel.Item>
 

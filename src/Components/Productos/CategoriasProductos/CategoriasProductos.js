@@ -49,12 +49,11 @@ function CategoryPage() {
               <div className="card">
                 <img
                   src={prod.image}
-                  className="img"
+                  className="Productos Todo Sellos"
                   alt={prod.title}
                 />
                 <div className="containerData">
                   <h5 className="titulo">{prod.title}</h5>
-                  {/* <p className="precio">${prod.price}</p> */}
   
                   <Button
                     as={Link}

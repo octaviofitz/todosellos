@@ -50,7 +50,7 @@ export default function ProductPage() {
 
         <div className="contenedorImagen">
 
-          <img src={product.image} alt={product.title} className="img" />
+          <img src={product.image} alt={product.title} className="imagen producto todo sellos" />
 
           </div>
 
@@ -86,8 +86,7 @@ export default function ProductPage() {
        
       </div>
 
-      {/* Contenedor de toasts (colocado aquí para que el componente sea autosuficiente).
-          Si ya tenés uno global en App.jsx, podés quitar este para evitar duplicados. */}
+
       <ToastContainer />
     </article>
   );

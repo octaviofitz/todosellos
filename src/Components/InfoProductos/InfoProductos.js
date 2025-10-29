@@ -15,7 +15,7 @@ function InfoProductos() {
             <img
               className="img"
               src="/img/Productos/Sellos/Automatico2000.webp"
-              alt="Sellos"
+              alt="Sellos Lomas"
             />
           </div>
           <p className='subtitulo'>SELLOS</p>

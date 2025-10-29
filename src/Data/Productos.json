@@ -338,7 +338,32 @@
       "image": "/img/Productos/Grabados/TermoGrabado.webp"
     },
 
+    {
+      "id": "grab7",
+      "title": "Grabado de cuchillo",
+      "description": "Grabado personalizado en cuchillos, ideal para regalos, celebraciones o uso personal. Se realiza con diseño de alta precisión sobre acero inoxidable, ofreciendo un acabado elegante y duradero. Puedes incluir nombres, fechas o frases especiales para crear un detalle único y significativo. (No incluye el cuchillo).",
+      "price": 8000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Cuchillo1.webp"
+    },
 
+    {
+      "id": "grab8",
+      "title": "Grabado de cuchillo",
+      "description": "Grabado personalizado en cuchillos, ideal para regalos, celebraciones o uso personal. Se realiza con diseño de alta precisión sobre acero inoxidable, ofreciendo un acabado elegante y duradero. Puedes incluir nombres, fechas o frases especiales para crear un detalle único y significativo. (No incluye el cuchillo).",
+      "price": 8000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Cuchillo2.webp"
+    },
+
+    {
+      "id": "grab9",
+      "title": "Mate de algarrobo con bombilla",
+      "description": "Mate de algarrobo grabado, una combinación perfecta entre lo tradicional y lo personalizado. Fabricado en madera de algarrobo natural, ofrece un sabor único y auténtico al mate. El grabado personalizado le da un toque distintivo, ideal para regalos o para quienes buscan un accesorio exclusivo. Incluye bombilla de acero inoxidable.",
+      "price": 22000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate2.webp"
+    },
 
 
 

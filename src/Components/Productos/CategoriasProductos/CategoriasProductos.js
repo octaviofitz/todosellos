@@ -49,7 +49,7 @@ function CategoryPage() {
               <div className="card">
                 <img
                   src={prod.image}
-                  className="Productos Todo Sellos"
+                  className="img"
                   alt={prod.title}
                 />
                 <div className="containerData">

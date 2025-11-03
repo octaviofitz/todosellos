@@ -50,7 +50,7 @@ export default function ProductPage() {
 
         <div className="contenedorImagen">
 
-          <img src={product.image} alt={product.title} className="imagen producto todo sellos" />
+          <img src={product.image} alt={product.title} className="img" />
 
           </div>
 

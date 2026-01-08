@@ -185,7 +185,7 @@
       "id": "boli1",
       "title": "Bolígrafo Andes Micro",
       "description": "El bolígrafo Andes Micro combina elegancia y estilo en un diseño sofisticado que lo convierte en una excelente opción tanto para uso personal como para regalo. Con acabados que destacan por sus detalles metálicos en dorado o plateado y colores intensos como negro, azul o rojo, transmite distinción sin perder practicidad. Su trazo es suave y parejo, ideal para quienes buscan una escritura cómoda y confiable. Este modelo se presenta en su estuche original, lo que realza su presencia y lo hace perfecto para obsequiar en ocasiones especiales o para quienes valoran un bolígrafo con personalidad y calidad.",
-      "price": 20000,
+      "price": 25000,
       "category": "Boligrafos",
       "image": "/img/Productos/Boligrafos/Andes.webp"
     },
@@ -203,7 +203,7 @@
       "id": "boli3",
       "title": "Boligrafo Micro",
       "description": "El bolígrafo Micro es la combinación perfecta de elegancia y practicidad. Con un cuerpo metálico en acabados sofisticados y detalles cromados, ofrece una escritura suave y continua que refleja profesionalismo en cada trazo. Disponible en colores rojo, negro, gris y azul, se presenta en un estuche individual que lo convierte en la elección ideal tanto para uso personal como para un regalo ejecutivo. Su diseño ergonómico garantiza comodidad, mientras que su estilo moderno y refinado lo hace destacar en cualquier ocasión.",
-      "price": 20000,
+      "price": 25000,
       "category": "Boligrafos",
       "image": "/img/Productos/Boligrafos/Micro.webp"
     },
@@ -243,6 +243,7 @@
       "category": "Boligrafos",
       "image": "/img/Productos/Boligrafos/Prestige.webp"
     },
+    
 
     {
       "id": "boli8",
@@ -264,11 +265,29 @@
 
     {
       "id": "boli10",
+      "title": "Bolígrafo Prestige",
+      "description": "Elegante bolígrafo Prestige presentado en estuche individual, ideal para regalos corporativos, institucionales o personales. Su diseño sofisticado y moderno combina materiales de alta calidad con un acabado fino que garantiza estilo y distinción en cada escritura. Suave al trazo y cómodo en mano, es una opción perfecta para quienes buscan un accesorio práctico y con presencia.",
+      "price": 13000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/BoligrafoPrestige2.jpeg"
+    },
+
+    {
+      "id": "boli11",
       "title": "Bolígrafo con cartón reciclable",
       "description": "Bolígrafo ecológico con cuerpo de cartón reciclable y detalles plásticos de colores. Incluye grabado personalizado por láser, ideal para nombres, frases o logotipos. Su diseño liviano y cómodo lo convierte en una excelente opción para regalos, eventos o uso diario, combinando practicidad con un compromiso sustentable.",
       "price": 2500,
       "category": "Boligrafos",
       "image": "/img/Productos/Boligrafos/BoligrafoCarton.webp"
+    },
+
+    {
+      "id": "boli12",
+      "title": "Bolígrafo Micro Colón",
+      "description": "El Micro VIP Colón es un bolígrafo elegante y moderno, diseñado para quienes valoran la calidad y el buen estilo. Su acabado metálico le da una apariencia profesional, mientras que el grip antideslizante asegura una escritura cómoda y precisa. Ofrece un trazo suave y confiable, ideal para el uso diario o como obsequio empresarial. Se presenta en estuche individual, lo que lo convierte en una excelente opción para regalos o promociones de alto nivel.",
+      "price": 25000,
+      "category": "Boligrafos",
+      "image": "/img/Productos/Boligrafos/BoligrafoColon.webp"
     },
 
 

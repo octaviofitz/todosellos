@@ -5,7 +5,7 @@
       "id": "sell1",
       "title": "Sello automático Sarito Profesional 2001 C/3L de texto",
       "description": "El Automático Sarito Profesional 2001 con 3 líneas de texto es un sello confiable, práctico y duradero, diseñado para un uso intensivo en oficinas, comercios o emprendimientos. Su formato compacto y ergonómico lo hace fácil de manipular, mientras que permite personalizar hasta tres líneas de información, perfectas para incluir nombre, cargo, razón social, dirección, teléfono u otros datos importantes. Disponible en una variedad de colores modernos, combina funcionalidad con estilo, garantizando impresiones nítidas y rápidas en cada aplicación.",
-      "price": 10000,
+      "price": 12000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/Profesional2001.webp"
     },
@@ -24,7 +24,7 @@
       "id": "sell3",
       "title": "Sello Trodat 3911 C/3L de texto",
       "description": "El Trodat 3911 con 3 líneas de texto es un sello automático compacto y resistente, ideal para uso diario en oficinas, negocios o emprendimientos. Su diseño permite personalizar hasta tres líneas, lo que lo convierte en la opción perfecta para incluir datos como nombre, cargo, dirección, teléfono o redes sociales. Además, está disponible en atractivos colores que le dan un toque moderno y distintivo. Con un sistema de entintado interno recambiable, garantiza impresiones limpias, rápidas y duraderas en cada uso.",
-      "price": 12000,
+      "price": 14000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/Trodat.webp"
     },
@@ -33,7 +33,7 @@
       "id": "sell4",
       "title": "Sello automático Shiny 222 C/3L de texto",
       "description": "El Automático Shiny es un sello confiable, práctico y duradero, ideal para el uso cotidiano en oficinas, comercios, instituciones o emprendimientos. Su mecanismo automático permite un sellado rápido y preciso con solo presionar, evitando manchas y logrando impresiones claras en cada aplicación. Está disponible en varios colores, lo que le da un toque moderno y personalizable. Compacto, resistente y con almohadilla recambiable, es la herramienta perfecta para quienes buscan calidad y practicidad en cada documento.",
-      "price": 11000,
+      "price": 13000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/Shiny.webp"
     },
@@ -42,7 +42,7 @@
       "id": "sell5",
       "title": "Fechador Shiny Automatico",
       "description": "El Fechador Shiny Automático es una herramienta práctica y confiable para oficinas, negocios o instituciones que requieren organización y control en sus documentos. Permite estampar la fecha de manera clara, rápida y precisa, con un diseño automático que evita manchas y facilita un uso ágil en cada aplicación. Su estructura robusta asegura durabilidad incluso en un uso intensivo, mientras que el sistema de entintado interno ofrece impresiones limpias y uniformes. Ideal para facturas, comprobantes, archivos y todo tipo de documentación que necesite estar debidamente fechada y validada.",
-      "price": 35000,
+      "price": 42000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/Fechador.webp"
     },
@@ -70,7 +70,7 @@
       "id": "sell8",
       "title": "Fechador con texto manual",
       "description": "Este fechador manual con plancha de 60x40 mm es una herramienta práctica y confiable para oficinas, comercios y tareas administrativas. Fabricado en Argentina, combina un diseño resistente con un funcionamiento sencillo, permitiendo marcar fechas y textos de forma clara y profesional. Su estructura metálica asegura durabilidad y precisión en cada uso, mientras que su empuñadura ergonómica facilita el manejo diario. Ideal para mantener un control organizado en documentos, facturas o registros, garantizando siempre una impresión nítida y uniforme.",
-      "price": 22000,
+      "price": 27000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/SelladorManual.webp"
     },
@@ -89,7 +89,7 @@
       "id": "sell10",
       "title": "Automático trodat 4911 Ideal. C/3L",
       "description": "El sello automático Trodat 4911 Ideal con capacidad para 3 líneas es una solución práctica y eficiente para el marcado de documentos. Su diseño compacto y ergonómico facilita el uso diario, garantizando impresiones claras y uniformes en cada aplicación. Perfecto para oficinas, estudios o uso personal, combina calidad, durabilidad y comodidad, convirtiéndose en una herramienta indispensable para mantener la organización y profesionalidad en el trabajo.",
-      "price": 13000,
+      "price": 16000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/TrodatIdeal.webp"
     },
@@ -125,7 +125,7 @@
       "id": "sell14",
       "title": "Sellos Pocket Trodat con 3 lineas de texto",
       "description": "Los sellos Pocket Trodat con 3 líneas de texto son prácticos, compactos y fáciles de llevar a cualquier lugar. Su diseño moderno y funcional permite transportarlos en bolsillos, carteras o maletines sin ocupar espacio, siendo ideales para profesionales en movimiento. Ofrecen impresiones claras y precisas, con un mecanismo confiable que garantiza comodidad y rapidez en cada uso. Disponibles en diferentes colores, combinan estilo y utilidad, convirtiéndose en una excelente herramienta para mantener documentos organizados en todo momento.",
-      "price": 16000,
+      "price": 18000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/Pocket.webp"
     },
@@ -134,7 +134,7 @@
       "id": "sell15",
       "title": "Tinta para sello Ópalo",
       "description": "Tinta para sellos marca Ópalo, línea Tintas 999. Ideal para obtener impresiones claras y duraderas en todo tipo de sellos de goma. Su presentación práctica permite un uso sencillo y limpio. Disponible en una amplia variedad de colores para adaptarse a todas tus necesidades de identificación y marcado. Colores disponibles: negro, azul, rojo, verde, violeta, rosa, marrón, naranja.",
-      "price": 1100,
+      "price": 1500,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/TintaOpalo.webp"
     },
@@ -143,7 +143,7 @@
       "id": "sell17",
       "title": "Tinta 1/2lts indeleble",
       "description": "Tinta indeleble Ópalo H-33 en presentación de 1/2 litro (450 cc). Especialmente formulada para marcar con sellos de goma o bronce sobre polietileno, “celofán”, cartón parafinado y otras superficies muy pulidas. Su secado es instantáneo, lo que garantiza impresiones firmes y duraderas. Ideal para trabajos que requieren máxima resistencia y calidad profesional.",
-      "price": 24000,
+      "price": 29000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/TintaIndeleble.webp"
     },
@@ -152,7 +152,7 @@
       "id": "sell18",
       "title": "Tinta al agua 1/2lts",
       "description": "Tinta al agua Ópalo tipo múltiple en presentación de 1/2 litro. Especial para usar en almohadillas de fieltro o goma microporosa con sellos de goma natural, sintética o fotopolímero. Garantiza impresiones claras y uniformes, con excelente rendimiento y durabilidad. Producto ideal para oficinas, comercios y uso profesional.",
-      "price": 13000,
+      "price": 18000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/TintaAlAgua.webp"
     },
@@ -161,7 +161,7 @@
       "id": "sell19",
       "title": "Tinta 30cc indeleble",
       "description": "Tinta indeleble Ópalo H-33 en envase de 30 cc. Diseñada para marcar con sellos de goma o de bronce sobre superficies difíciles como polietileno, “celofán”, cartón parafinado y otras muy pulidas. Su fórmula de secado instantáneo garantiza impresiones firmes, nítidas y resistentes, ideal para aplicaciones profesionales que requieren máxima durabilidad.",
-      "price": 3200,
+      "price": 4000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/TintaIndeleble2.webp"
     },
@@ -170,7 +170,7 @@
       "id": "sell16",
       "title": "Automático Ovalado con texto incluído",
       "description": "Sello automático ovalado con texto incluido. Modelo autoentintable de alta calidad que ofrece impresiones nítidas y uniformes en segundos. Carcasa robusta y cómoda, almohadilla integrada reemplazable y mecanismo suave para miles de marcadas. Ideal para datos comerciales, logos o firmas; listo para personalizar y usar en oficinas, comercios y estudios.",
-      "price": 29000,
+      "price": 39000,
       "category": "Sellos",
       "image": "/img/Productos/Sellos/Ovalado.webp"
     },

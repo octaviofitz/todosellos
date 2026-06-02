@@ -384,6 +384,69 @@
       "image": "/img/Productos/Grabados/Mate2.webp"
     },
 
+    {
+      "id": "grab10",
+      "title": "Mate Imperial Acero + Grabado + Bombilla + Caja (opcional)",
+      "description": "Mate Imperial de acero con elegante grabado en virola, forrado en material simil cuero y presentado con bombilla de acero incluida. Un diseño clásico y sofisticado, ideal para regalar o disfrutar todos los días. La caja de presentación es opcional y tiene un precio de $10.000.",
+      "price": 45000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate3.webp"
+    },
+
+    {
+      "id": "grab11",
+      "title": "Imperial Bronce + Grabado + Bombilla + Caja (opcional)",
+      "description": "Mate Imperial de Bronce con elegante grabado en virola, forrado en material simil cuero y presentado con bombilla de acero incluida. Un diseño clásico y sofisticado, ideal para regalar o disfrutar todos los días. La caja de presentación es opcional y tiene un precio de $10.000.",
+      "price": 45000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate4.webp"
+    },
+
+    {
+      "id": "grab12",
+      "title": "Mate Algarrobo + Grabado + Bombilla + Caja (opcional)",
+      "description": "Mate de Algarrobo con terminación brillante y vetas naturales que resaltan la belleza de la madera. Incluye grabado personalizado y bombilla de acero inoxidable, combinando tradición y estilo en una pieza única. Ideal para regalar o para disfrutar del mate de todos los días. La caja de presentación es opcional y tiene un precio de $10.000",
+      "price": 26000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate5.webp"
+    },
+
+    {
+      "id": "grab13",
+      "title": "Mate Imperial + Grabado + Bombilla + Caja (opcional)",
+      "description": "Mate Imperial forrado en simil cuero con virola de estilo tradicional y grabado personalizado. Incluye bombilla de acero inoxidable y ofrece una presentación elegante, ideal para regalo o para disfrutar unos buenos mates. Caja de presentación opcional por $10.000. Calidad, diseño y personalización en un solo producto.",
+      "price": 40000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate6.webp"
+    },
+
+    {
+      "id": "grab14",
+      "title": "Mate Imperial + Grabado + Bombilla + Caja (opcional)",
+      "description": "Mate Imperial forrado en simil cuero con elegante virola labrada y grabado personalizado. Incluye bombilla de acero inoxidable, combinando tradición, estilo y durabilidad. Ideal para regalar o disfrutar de cada mate con un toque único y personalizado. Caja de presentación opcional por $10.000.",
+      "price": 40000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate7.webp"
+    },
+
+    {
+      "id": "grab15",
+      "title": "Mate Algarrobo Imperial + Grabado + Bombilla + Caja (opcional)",
+      "description": "Mate Algarrobo Imperial con terminación brillante que resalta las vetas naturales de la madera y elegante virola labrada. Incluye grabado personalizado y bombilla de acero inoxidable, logrando una combinación perfecta entre tradición, calidad y distinción. Ideal para regalo o para disfrutar de un mate único todos los días. Caja de presentación opcional por un precio de $10.000",
+      "price": 30000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Mate8.webp"
+    },
+
+    {
+      "id": "grab16",
+      "title": "Identificadores grabados",
+      "description": "Identificadores grabados personalizados, ideales para empresas, comercios, oficinas, eventos y personal de atención al público. Fabricados con materiales de excelente calidad y terminación profesional, permiten incorporar nombres, cargos, logotipos y colores corporativos para reforzar la imagen de tu marca. Resistentes, elegantes y totalmente personalizables, son la solución perfecta para identificar a tu equipo de trabajo con una presentación prolija y profesional.",
+      "price": 7000,
+      "category": "Grabados",
+      "image": "/img/Productos/Grabados/Identificador.webp"
+    },
+
 
 
 
